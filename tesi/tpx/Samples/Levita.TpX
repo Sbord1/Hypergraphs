@@ -1,0 +1,213 @@
+%<TpX v="5" TeXFormat="pgf" PdfTeXFormat="pgf" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="3.5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="1.5" DottedSize="0.5" DashSize="1.5" LineWidth="0.3125">
+%  <comment>Imported from p0047.emf 2006-07-30 23:14:32</comment>
+%  <ellipse x="2.8181" y="37.3767" dx="13.9909" dy="6.77674" rotdeg="146" ha="2"/>
+%  <ellipse x="-17.6947" y="3.65865" dx="1.84203" dy="1.03475" rotdeg="150"/>
+%  <ellipse x="-12.5221" y="11.7272" dx="17.5582" dy="8.58337" rotdeg="151"/>
+%  <line x1="-4.7898" y1="7.69419" x2="0.802415" y2="17.2173"/>
+%  <line x1="-19.961" y1="16.2829" x2="-13.052" y2="28.3268"/>
+%  <line x1="3.56235" y1="57.5655" x2="-12.4326" y2="29.3565" li="dash"/>
+%  <line x1="17.6916" y1="47.2258" x2="1.36502" y2="18.137" li="dash"/>
+%  <bezier>18.1616,67.1772 18.3263,67.4337 18.9865,67.497 19.4086,67.2152 19.7682,66.9752 19.8557,66.3819 19.7575,66.2075</bezier>
+%  <line x1="19.7953" y1="66.256" x2="-16.8908" y2="3.20969"/>
+%  <line x1="18.1738" y1="67.1879" x2="-18.4981" y2="4.10401"/>
+%  <curve lw="1.50">6.89207,58.8225 6.20843,55.7803 7.9517,50.3112 11.8519,47.2669 15.5401,47.4057 14.2431,51.6795 11.9168,53.5926 8.39607,54.6523 3.71315,52.7859 1.83373,49.572 3.16358,43.7206 7.26807,39.9267 11.1648,39.7216 11.4087,41.9475 8.57164,45.4938 4.1917,47.2416 -0.525397,45.5325 -3.04238,40.4403 -1.17485,34.9276 2.99533,31.5778 6.88717,32.3726 5.25134,36.0556 0.85851,39.0218 -4.37223,38.1353 -7.9185,32.5499 -5.79074,27.8511 -1.18059,24.2162 2.36567,24.4821 1.30179,28.117 -2.28576,30.9677 -6.76597,31.5747 -12.1643,27.1991 -12.4036,22.9264 -6.21668,15.9874 -3.24285,16.2951 -3.65304,19.6449 -10.5782,23.8615</curve>
+%  <line x1="2.64984" y1="37.7326" x2="2.05438" y2="67.5203" arr2="h43"/>
+%  <line x1="2.59467" y1="37.8473" x2="15.989" y2="29.0806" arr2="h43"/>
+%  <line x1="-3.07893" y1="13.4959" x2="0.485232" y2="19.8769" arr2="h43"/>
+%  <curve closed="1">88.5287,32.8319 83.2546,34.5161 75.5916,35.4652 66.2743,35.5397 58.8205,35.167 52.5554,34.3402 46.5128,33.1554 41.1943,31.2053 38.3186,29.0871 38.3971,25.0299 44.062,21.2284 53.9755,18.9178 67.7202,18.0177 78.7222,19.2904 88.8593,22.4956 93.1825,26.3715 91.6755,30.9261</curve>
+%  <curve closed="1">94.7478,28.3841 93.037,31.5935 86.2168,35.0967 78.9493,36.3266 72.1291,36.8857 61.0567,36.4342 50.7704,35.2416 44.9564,33.9744 39.6642,32.111 36.6082,28.5332 37.5026,23.9863 42.5712,20.2594 52.1121,17.5761 61.8871,16.7292 75.4425,17.2779 82.2254,18.5451 89.6455,21.2998</curve>
+%  <curve closed="1" lw="1.50">48.8055,27.9378 45.8793,29.0758 44.4975,30.9453 43.7659,32.8148 42.6986,35.9679 41.0063,36.8454 37.6696,35.2534 36.2065,32.4084 36.1252,28.5068 37.6696,25.7431 39.1321,25.0947 40.4497,26.7286 39.9754,28.8632 38.3199,30.6202 35.7188,31.5143 32.9551,30.0512 31.567,25.633 34.1744,19.972 42.1021,19.3352 44.9039,22.0041 45.3103,24.9303 44.1723,26.4747 41.49,24.849 40.5958,21.3538 41.9777,16.9645 44.7413,14.6885 48.8055,14.2008 53.1136,16.7206 55.0644,20.7848 54.8205,23.2233 53.6013,24.28 51.3253,22.8169 50.3499,19.8094 51.0015,16.053 53.4387,12.9816 58.2344,11.8436 61.6484,13.6318 64.0056,17.696 63.5992,21.3538 62.2986,22.8982 59.6163,17.6148 60.8355,14.4447 63.9962,11.9682 68.0698,12.0875 70.9147,14.8511 71.8901,19.2404 69.3703,22.6544 67.6634,20.2971 69.0452,15.0137 72.3778,12.819 77.4174,14.9324 79.8559,21.0287 81.9693,23.4672 86.1644,24.2013 88.9597,21.9228 89.4585,17.6934 86.7323,15.061 84.9768,15.9078 84.0825,22.242 87.7101,27.0084 91.7776,29.8804 99.8416,30.4075 101.315,26.556 94.8935,22.7356 89.4474,24.28 83.6763,29.7261 81.9663,33.3063 81.1565,38.1796 84.0827,41.5935 85.2207,39.155 83.8796,36.4054 77.357,30.8135 72.6217,29.3196 69.7767,30.4576 68.1511,34.5218 68.716,38.8022 70.9768,40.7706 72.9468,36.4726 71.8088,33.14 68.5575,29.6448 64.3783,29.1412 60.71,31.6184 58.8847,37.0416 60.7297,40.7706 62.8182,39.2502 63.274,36.1475 62.1361,32.002 59.3724,29.2384 54.8205,28.9945
+% 51.9713,31.2139 50.4312,35.4972 50.68,37.5636 51.5496,39.0921 53.4207,39.1184 54.4748,37.4846 54.5539,33.6831 53.8451,31.3517 52.024,29.2822</curve>
+%  <ellipse x="64.6515" y="27.2113" dx="78.3676" dy="45.5285" rotdeg="180"/>
+%  <bezier arr2="h43">43.5767,11.4843 46.4215,10.0675 48.9625,9.19761 52.0383,8.71915</bezier>
+%  <circle x="92.5146" y="27.4357" d="19.0169" li="dash" ha="4"/>
+%  <circle x="92.6501" y="27.3689" d="22.3887" li="dash"/>
+%  <line x1="92.4911" y1="27.3469" x2="92.9791" y2="49.6002" arr2="h43"/>
+%  <line x1="92.3715" y1="27.4665" x2="112.029" y2="27.3761" arr2="h43"/>
+%  <ellipse x="36.4927" y="27.2325" dx="22.1235" dy="22.6515" rotdeg="180" li="dash"/>
+%  <line x1="48.3182" y1="54.3137" x2="60.0254" y2="40.7334" lw="0.50"/>
+%  <bezier closed="1" lw="0.25">23.4093,-13.3908</bezier>
+%  <bezier closed="1" lw="0.25">51.6868,14.6871</bezier>
+%  <bezier closed="1" lw="0.25">1.91843,15.419</bezier>
+%  <bezier closed="1" lw="0.25">-4.06974,15.6851</bezier>
+%  <bezier closed="1" lw="0.25">60.1368,16.5501</bezier>
+%  <bezier closed="1" lw="0.25">-19.7055,16.6831</bezier>
+%  <bezier closed="1" lw="0.25">84.2225,17.0158</bezier>
+%  <bezier closed="1" lw="0.25">67.6553,17.3485</bezier>
+%  <bezier closed="1" lw="0.25">83.9564,17.5481</bezier>
+%  <bezier closed="1" lw="0.25">83.8898,18.0139</bezier>
+%  <bezier closed="1" lw="0.25">-3.00517,18.3465</bezier>
+%  <bezier closed="1" lw="0.25">41.3073,18.6792</bezier>
+%  <bezier closed="1" lw="0.25">100.923,19.5442</bezier>
+%  <bezier closed="1" lw="0.25">27.9337,20.0099</bezier>
+%  <bezier closed="1" lw="0.25">34.5207,20.0099</bezier>
+%  <bezier closed="1" lw="0.25">54.8139,20.0099</bezier>
+%  <bezier closed="1" lw="0.25">40.7085,20.3426</bezier>
+%  <bezier closed="1" lw="0.25">63.9958,20.3426</bezier>
+%  <bezier closed="1" lw="0.25">87.9485,22.006</bezier>
+%  <bezier closed="1" lw="0.25">-12.187,22.3386</bezier>
+%  <bezier closed="1" lw="0.25">-12.3201,22.5382</bezier>
+%  <bezier closed="1" lw="0.25">-12.3866,23.004</bezier>
+%  <bezier closed="1" lw="0.25">93.604,24.5343</bezier>
+%  <bezier closed="1" lw="0.25">91.9406,24.6674</bezier>
+%  <bezier closed="1" lw="0.25">45.2994,25.3327</bezier>
+%  <bezier closed="1" lw="0.25">102.054,27.3953</bezier>
+%  <bezier closed="1" lw="0.25">101.256,27.9941</bezier>
+%  <bezier closed="1" lw="0.25">103.518,29.5244</bezier>
+%  <bezier closed="1" lw="0.25">-6.99729,29.9902</bezier>
+%  <bezier closed="1" lw="0.25">103.385,29.9902</bezier>
+%  <bezier closed="1" lw="0.25">-7.06382,30.3229</bezier>
+%  <bezier closed="1" lw="0.25">103.252,30.3229</bezier>
+%  <bezier closed="1" lw="0.25">-7.3965,31.9863</bezier>
+%  <bezier closed="1" lw="0.25">59.4714,34.315</bezier>
+%  <bezier closed="1" lw="0.25">48.4931,34.9803</bezier>
+%  <bezier closed="1" lw="0.25">57.4754,34.9803</bezier>
+%  <bezier closed="1" lw="0.25">81.428,34.9803</bezier>
+%  <bezier closed="1" lw="0.25">5.91055,35.6457</bezier>
+%  <bezier closed="1" lw="0.25">100.258,35.6457</bezier>
+%  <bezier closed="1" lw="0.25">62.6651,36.6437</bezier>
+%  <bezier closed="1" lw="0.25">91.9406,36.9764</bezier>
+%  <bezier closed="1" lw="0.25">92.8721,36.9764</bezier>
+%  <bezier closed="1" lw="0.25">92.9386,38.5067</bezier>
+%  <bezier closed="1" lw="0.25">-1.07565,39.3051</bezier>
+%  <bezier closed="1" lw="0.25">47.362,47.622</bezier>
+%  <bezier closed="1" lw="0.25">48.4931,47.9547</bezier>
+%  <bezier closed="1" lw="0.25">52.4852,48.9527</bezier>
+%  <bezier closed="1" lw="0.25">14.8928,50.9488</bezier>
+%  <bezier closed="1" lw="0.25">13.0964,52.1464</bezier>
+%  <bezier closed="1" lw="0.25">21.4133,56.2716</bezier>
+%  <line x1="19.309" y1="67.3331" x2="21.5463" y2="71.4417"/>
+%  <line x1="11.8006" y1="41.1208" x2="48.405" y2="54.2906" lw="0.50"/>
+%  <line x1="-19.6748" y1="-7.28671" x2="-13.4882" y2="3.22302" arr2="h43"/>
+%  <text x="89.5381" y="48.8078" t="x" tex="$x$" h="3.5"/>
+%  <text x="109.553" y="22.9468" t="y" tex="$y$" h="3.5"/>
+%  <text x="73.5437" y="21.7405" t="I1" tex="$I_1$" h="3.5"/>
+%  <text x="66.7086" y="8.48021" t="B" tex="$B$" h="3.5"/>
+%  <text x="54.4761" y="7.41651" t="B0" tex="$B_0$" h="3.5"/>
+%  <text x="47.9511" y="55.8828" t="Field line" tex="\textit{Field line}" h="3.5" halign="c" rotdeg="-5"/>
+%  <polygon li="none" fill="white">72.3176,36.7058 73.7671,36.6531 73.5299,35.678 72.1859,35.7307</polygon>
+%  <polygon li="none" fill="white">62.62,36.4021 64.1541,36.5237 63.8989,35.6261 62.5728,35.6014</polygon>
+%  <polygon li="none" fill="white">54.2039,35.6261 55.2098,35.7267 55.2529,34.9076 54.1465,34.764</polygon>
+%  <polygon li="none" fill="white">45.0854,33.8524 45.8714,34.0233 46.2303,33.2373 45.5405,33.0306</polygon>
+%  <bezier closed="1" li="none" fill="white">37.8274,26.0664 37.9436,25.6402 38.1059,25.2642 38.2865,24.8943 38.619,24.2137 36.7516,25.6893 36.6674,26.441 36.6107,26.9474 36.5822,27.3854 36.6434,27.9495 36.7033,28.5024 37.6811,26.6029</bezier>
+%  <polygon li="none" fill="white">44.4089,19.6797 45.1729,20.7139 45.9276,20.4903 44.8841,19.5306</polygon>
+%  <polygon li="none" fill="white">53.1397,17.5899 53.9251,18.7862 54.9763,18.617 54.3238,17.4208</polygon>
+%  <polygon li="none" fill="white">63.2954,16.861 63.5944,17.8606 64.4714,17.8317 64.1972,16.8445</polygon>
+%  <polygon li="none" fill="white">42.8627,20.2977 43.7403,21.1707 44.6394,20.881 43.678,19.9716</polygon>
+%  <polygon li="none" fill="white">71.338,17.0378 71.5225,18.0821 72.3098,18.1512 72.1023,17.0938</polygon>
+%  <bezier closed="1" li="none" fill="white">83.3211,19.0089 83.0177,18.935 82.948,19.8683 82.8236,20.1548 83.1613,20.2561 83.8367,20.4588 84.1744,20.5601 84.3686,20.2953 85.2632,19.603 84.9511,19.501 84.5462,19.3688 83.769,19.1181</bezier>
+%  <polygon li="none" fill="white">82.704,35.6596 83.6183,35.5015 82.939,34.7453 82.0931,34.9077</polygon>
+%  <bezier closed="1" li="none" lw="0.05" fill="white">94.5991,27.2932 94.5955,26.5854 94.0475,24.899 92.694,23.6785 91.4807,22.5239 90.8739,22.1366 89.5408,21.418 89.4211,21.7249 89.258,22.0883 89.0289,22.4012 89.7936,22.7163 90.5044,23.0913 91.1677,23.5419 91.9738,24.0895 92.6608,24.8067 93.0931,25.6935 93.3356,26.1909 93.4792,26.7831 93.476,27.3147 93.621,27.3147 94.459,27.2932</bezier>
+%  <bezier closed="1" li="none" fill="black">68.6743,38.6175 68.4851,38.5821 67.9063,38.2126 67.5815,37.905 67.7525,38.6912 68.607,40.3148 70.335,40.7738 69.5763,39.2186 69.3624,39.1154 69.0172,37.4606 68.9164,37.7821 68.7309,38.465</bezier>
+%  <line x1="34.5778" y1="19.8238" x2="35.8234" y2="18.956" arr2="h43"/>
+%  <text x="65.2841" y="-5.53618" t="b)" h="3.5"/>
+%  <text x="7.27549" y="-2.82055" t="a)" h="3.5"/>
+%  <text x="-12.3027" y="0.139352" t="I1" tex="$I_1$" h="3.5"/>
+%  <text x="-1.86551" y="67.7783" t="x" tex="$x$" h="3.5"/>
+%  <text x="14.0105" y="24.7864" t="y" tex="$y$" h="3.5"/>
+%  <text x="24.0034" y="70.5377" t="z" tex="$z$" h="3.5"/>
+%  <text x="1.28935" y="13.4325" t="B0" tex="$B_0$" h="3.5"/>
+%  <text x="15.8906" y="52.8669" t="B" tex="$B$" h="3.5"/>
+%  <bezier closed="1" li="none" lw="0.05" ha="2">-1.09029,34.897 -1.68015,35.7293 -1.77639,36.44 -0.685087,38.1861 -0.139094,39.0597 2.78163,37.1501 3.31886,36.1841 4.01272,34.9366 4.4006,31.3295 3.09873,31.5758 1.75194,31.8306 -0.0919114,33.4883</bezier>
+%  <bezier closed="1" li="none" fill="black">14.1394,51.8308 14.1572,52.0194 14.3121,52.636 14.1091,53.0268 14.7255,52.3224 15.2465,51.2824 15.7292,49.6742 14.4634,50.8141 14.4238,51.0446 12.9516,51.8202 13.2831,51.8283 13.9796,51.8186</bezier>
+%  <bezier>18.4146,48.5311 18.5218,48.7607 21.52,54.6545 21.5384,54.6934 21.9792,55.6266 21.6925,56.974 20.7391,58.3381 19.7461,59.7591 18.1058,61.1574 16.1794,62.2253 14.253,63.2931 12.1979,63.9432 10.4666,64.0323 8.75266,64.1206 7.58841,63.6758 6.95371,62.7992 6.92202,62.7554 4.30333,58.9234 4.2318,58.812</bezier>
+%  <rect x="-15.5373" y="8.87324" w="0.621626" h="1.51096" rotdeg="240" li="none" lw="0.05" fill="white"/>
+%  <rect x="-9.86176" y="18.6574" w="0.820481" h="1.53378" rotdeg="240" li="none" lw="0.05" fill="white"/>
+%  <rect x="-4.86225" y="27.2447" w="0.87485" h="1.52857" rotdeg="240" li="none" lw="0.05" fill="white"/>
+%  <polygon li="none" lw="0.05" fill="white">-0.611826,34.5901 -1.07958,33.7556 0.250469,32.9878 0.501435,33.4253 0.245147,33.9816 -0.0741148,33.9924</polygon>
+%  <rect x="4.20811" y="42.8517" w="1.02218" h="1.54213" rotdeg="240" li="none" lw="0.05" fill="white"/>
+%  <rect x="8.43673" y="50.1238" w="0.923275" h="1.54419" rotdeg="240" li="none" lw="0.05" fill="white"/>
+%</TpX>
+\begin{figure}
+\centering
+\begin{pgfpicture}{-22.48mm}{-9.29mm}{114.03mm}{75.28mm}
+\pgfsetxvec{\pgfpoint{1.00mm}{0mm}}
+\pgfsetyvec{\pgfpoint{0mm}{1.00mm}}
+\color[rgb]{0,0,0}\pgfsetlinewidth{0.31mm}\pgfsetdash{}{0mm}
+\pgfsetlinewidth{0.16mm}\pgfline{\pgfxy(-3.00,38.92)}{\pgfxy(-3.00,41.26)}\pgfline{\pgfxy(-1.50,36.65)}{\pgfxy(-1.50,42.13)}\pgfline{\pgfxy(0.00,35.25)}{\pgfxy(0.00,42.14)}\pgfline{\pgfxy(1.50,34.20)}{\pgfxy(1.50,41.78)}\pgfline{\pgfxy(3.00,33.41)}{\pgfxy(3.00,41.17)}\pgfline{\pgfxy(4.50,32.86)}{\pgfxy(4.50,40.33)}\pgfline{\pgfxy(6.00,32.58)}{\pgfxy(6.00,39.21)}\pgfline{\pgfxy(7.50,32.70)}{\pgfxy(7.50,37.68)}
+\pgfsetlinewidth{0.31mm}\pgfellipse[stroke]{\pgfxy(2.82,37.38)}{\pgfxy(-5.80,3.91)}{\pgfxy(-1.89,-2.81)}
+\pgfellipse[stroke]{\pgfxy(-17.69,3.66)}{\pgfxy(-0.80,0.46)}{\pgfxy(-0.26,-0.45)}
+\pgfellipse[stroke]{\pgfxy(-12.52,11.73)}{\pgfxy(-7.68,4.26)}{\pgfxy(-2.08,-3.75)}
+\pgfmoveto{\pgfxy(-4.79,7.69)}\pgflineto{\pgfxy(0.80,17.22)}\pgfstroke
+\pgfmoveto{\pgfxy(-19.96,16.28)}\pgflineto{\pgfxy(-13.05,28.33)}\pgfstroke
+\pgfsetdash{{3.00mm}{1.50mm}}{0mm}\pgfmoveto{\pgfxy(3.56,57.57)}\pgflineto{\pgfxy(-12.43,29.36)}\pgfstroke
+\pgfmoveto{\pgfxy(17.69,47.23)}\pgflineto{\pgfxy(1.37,18.14)}\pgfstroke
+\pgfsetdash{}{0mm}\pgfmoveto{\pgfxy(18.16,67.18)}\pgfcurveto{\pgfxy(18.33,67.43)}{\pgfxy(18.99,67.50)}{\pgfxy(19.41,67.22)}\pgfcurveto{\pgfxy(19.77,66.98)}{\pgfxy(19.86,66.38)}{\pgfxy(19.76,66.21)}\pgfstroke
+\pgfmoveto{\pgfxy(19.80,66.26)}\pgflineto{\pgfxy(-16.89,3.21)}\pgfstroke
+\pgfmoveto{\pgfxy(18.17,67.19)}\pgflineto{\pgfxy(-18.50,4.10)}\pgfstroke
+\pgfsetlinewidth{0.47mm}\pgfmoveto{\pgfxy(6.89,58.82)}\pgfcurveto{\pgfxy(6.48,57.86)}{\pgfxy(6.24,56.83)}{\pgfxy(6.21,55.78)}\pgfcurveto{\pgfxy(6.14,53.81)}{\pgfxy(6.75,51.88)}{\pgfxy(7.95,50.31)}\pgfcurveto{\pgfxy(8.97,48.98)}{\pgfxy(10.35,47.99)}{\pgfxy(11.85,47.27)}\pgfcurveto{\pgfxy(13.14,46.65)}{\pgfxy(14.69,46.37)}{\pgfxy(15.54,47.41)}\pgfcurveto{\pgfxy(16.58,48.67)}{\pgfxy(15.56,50.41)}{\pgfxy(14.24,51.68)}\pgfcurveto{\pgfxy(13.52,52.38)}{\pgfxy(12.78,53.07)}{\pgfxy(11.92,53.59)}\pgfcurveto{\pgfxy(10.85,54.25)}{\pgfxy(9.64,54.63)}{\pgfxy(8.40,54.65)}\pgfcurveto{\pgfxy(6.65,54.68)}{\pgfxy(4.98,53.98)}{\pgfxy(3.71,52.79)}\pgfcurveto{\pgfxy(2.79,51.92)}{\pgfxy(2.12,50.81)}{\pgfxy(1.83,49.57)}\pgfcurveto{\pgfxy(1.37,47.54)}{\pgfxy(1.99,45.45)}{\pgfxy(3.16,43.72)}\pgfcurveto{\pgfxy(4.22,42.16)}{\pgfxy(5.68,40.93)}{\pgfxy(7.27,39.93)}\pgfcurveto{\pgfxy(8.59,39.09)}{\pgfxy(10.25,38.63)}{\pgfxy(11.16,39.72)}\pgfcurveto{\pgfxy(11.67,40.33)}{\pgfxy(11.65,41.18)}{\pgfxy(11.41,41.95)}\pgfcurveto{\pgfxy(10.94,43.43)}{\pgfxy(9.83,44.58)}{\pgfxy(8.57,45.49)}\pgfcurveto{\pgfxy(7.27,46.44)}{\pgfxy(5.80,47.16)}{\pgfxy(4.19,47.24)}\pgfcurveto{\pgfxy(2.46,47.33)}{\pgfxy(0.78,46.67)}{\pgfxy(-0.53,45.53)}\pgfcurveto{\pgfxy(-2.01,44.24)}{\pgfxy(-2.95,42.41)}{\pgfxy(-3.04,40.44)}\pgfcurveto{\pgfxy(-3.14,38.44)}{\pgfxy(-2.36,36.54)}{\pgfxy(-1.17,34.93)}\pgfcurveto{\pgfxy(-0.10,33.47)}{\pgfxy(1.31,32.26)}{\pgfxy(3.00,31.58)}\pgfcurveto{\pgfxy(4.49,30.97)}{\pgfxy(6.27,31.04)}{\pgfxy(6.89,32.37)}\pgfcurveto{\pgfxy(7.50,33.69)}{\pgfxy(6.40,35.01)}{\pgfxy(5.25,36.06)}\pgfcurveto{\pgfxy(3.93,37.26)}{\pgfxy(2.59,38.55)}{\pgfxy(0.86,39.02)}\pgfcurveto{\pgfxy(-0.92,39.51)}{\pgfxy(-2.78,39.07)}{\pgfxy(-4.37,38.14)}\pgfcurveto{\pgfxy(-6.42,36.93)}{\pgfxy(-7.96,34.91)}{\pgfxy(-7.92,32.55)}\pgfcurveto{\pgfxy(-7.89,30.78)}{\pgfxy(-6.94,29.20)}{\pgfxy(-5.79,27.85)}\pgfcurveto{\pgfxy(-4.51,26.34)}{\pgfxy(-2.97,25.06)}{\pgfxy(-1.18,24.22)}\pgfcurveto{\pgfxy(0.09,23.62)}{\pgfxy(1.62,23.42)}{\pgfxy(2.37,24.48)}\pgfcurveto{\pgfxy(3.16,25.61)}{\pgfxy(2.33,27.03)}{\pgfxy(1.30,28.12)}\pgfcurveto{\pgfxy(0.24,29.24)}{\pgfxy(-0.89,30.30)}{\pgfxy(-2.29,30.97)}\pgfcurveto{\pgfxy(-3.68,31.63)}{\pgfxy(-5.25,31.85)}{\pgfxy(-6.77,31.57)}\pgfcurveto{\pgfxy(-9.21,31.14)}{\pgfxy(-11.29,29.51)}{\pgfxy(-12.16,27.20)}\pgfcurveto{\pgfxy(-12.68,25.84)}{\pgfxy(-12.72,24.35)}{\pgfxy(-12.40,22.93)}\pgfcurveto{\pgfxy(-11.69,19.70)}{\pgfxy(-9.32,17.11)}{\pgfxy(-6.22,15.99)}\pgfcurveto{\pgfxy(-5.17,15.61)}{\pgfxy(-3.95,15.49)}{\pgfxy(-3.24,16.30)}\pgfcurveto{\pgfxy(-2.43,17.22)}{\pgfxy(-2.89,18.58)}{\pgfxy(-3.65,19.64)}\pgfcurveto{\pgfxy(-5.30,21.93)}{\pgfxy(-7.80,23.45)}{\pgfxy(-10.58,23.86)}\pgfstroke
+\pgfsetlinewidth{0.31mm}\pgfmoveto{\pgfxy(2.65,37.73)}\pgflineto{\pgfxy(2.05,67.52)}\pgfstroke
+\pgfmoveto{\pgfxy(2.05,67.52)}\pgflineto{\pgfxy(1.41,64.71)}\pgflineto{\pgfxy(2.10,65.42)}\pgflineto{\pgfxy(2.81,64.73)}\pgflineto{\pgfxy(2.05,67.52)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(2.05,67.52)}\pgflineto{\pgfxy(1.41,64.71)}\pgflineto{\pgfxy(2.10,65.42)}\pgflineto{\pgfxy(2.81,64.73)}\pgflineto{\pgfxy(2.05,67.52)}\pgfclosepath\pgfstroke
+\pgfmoveto{\pgfxy(2.59,37.85)}\pgflineto{\pgfxy(15.99,29.08)}\pgfstroke
+\pgfmoveto{\pgfxy(15.99,29.08)}\pgflineto{\pgfxy(14.03,31.20)}\pgflineto{\pgfxy(14.23,30.23)}\pgflineto{\pgfxy(13.26,30.03)}\pgflineto{\pgfxy(15.99,29.08)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(15.99,29.08)}\pgflineto{\pgfxy(14.03,31.20)}\pgflineto{\pgfxy(14.23,30.23)}\pgflineto{\pgfxy(13.26,30.03)}\pgflineto{\pgfxy(15.99,29.08)}\pgfclosepath\pgfstroke
+\pgfmoveto{\pgfxy(-3.08,13.50)}\pgflineto{\pgfxy(0.49,19.88)}\pgfstroke
+\pgfmoveto{\pgfxy(0.49,19.88)}\pgflineto{\pgfxy(-1.49,17.77)}\pgflineto{\pgfxy(-0.54,18.04)}\pgflineto{\pgfxy(-0.27,17.09)}\pgflineto{\pgfxy(0.49,19.88)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(0.49,19.88)}\pgflineto{\pgfxy(-1.49,17.77)}\pgflineto{\pgfxy(-0.54,18.04)}\pgflineto{\pgfxy(-0.27,17.09)}\pgflineto{\pgfxy(0.49,19.88)}\pgfclosepath\pgfstroke
+\pgfmoveto{\pgfxy(88.53,32.83)}\pgfcurveto{\pgfxy(86.83,33.56)}{\pgfxy(85.06,34.11)}{\pgfxy(83.25,34.52)}\pgfcurveto{\pgfxy(80.74,35.08)}{\pgfxy(78.17,35.33)}{\pgfxy(75.59,35.47)}\pgfcurveto{\pgfxy(72.49,35.62)}{\pgfxy(69.38,35.61)}{\pgfxy(66.27,35.54)}\pgfcurveto{\pgfxy(63.79,35.49)}{\pgfxy(61.30,35.40)}{\pgfxy(58.82,35.17)}\pgfcurveto{\pgfxy(56.72,34.97)}{\pgfxy(54.64,34.66)}{\pgfxy(52.56,34.34)}\pgfcurveto{\pgfxy(50.53,34.03)}{\pgfxy(48.49,33.70)}{\pgfxy(46.51,33.16)}\pgfcurveto{\pgfxy(44.69,32.66)}{\pgfxy(42.92,31.98)}{\pgfxy(41.19,31.21)}\pgfcurveto{\pgfxy(40.08,30.71)}{\pgfxy(38.95,30.13)}{\pgfxy(38.32,29.09)}\pgfcurveto{\pgfxy(37.57,27.85)}{\pgfxy(37.69,26.31)}{\pgfxy(38.40,25.03)}\pgfcurveto{\pgfxy(39.54,22.96)}{\pgfxy(41.82,21.97)}{\pgfxy(44.06,21.23)}\pgfcurveto{\pgfxy(47.29,20.16)}{\pgfxy(50.62,19.44)}{\pgfxy(53.98,18.92)}\pgfcurveto{\pgfxy(58.52,18.21)}{\pgfxy(63.12,17.88)}{\pgfxy(67.72,18.02)}\pgfcurveto{\pgfxy(71.42,18.13)}{\pgfxy(75.10,18.53)}{\pgfxy(78.72,19.29)}\pgfcurveto{\pgfxy(82.20,20.02)}{\pgfxy(85.60,21.07)}{\pgfxy(88.86,22.50)}\pgfcurveto{\pgfxy(90.74,23.32)}{\pgfxy(92.65,24.41)}{\pgfxy(93.18,26.37)}\pgfcurveto{\pgfxy(93.63,28.02)}{\pgfxy(92.92,29.73)}{\pgfxy(91.68,30.93)}\pgfcurveto{\pgfxy(90.78,31.78)}{\pgfxy(89.67,32.35)}{\pgfxy(88.53,32.83)}\pgfclosepath\pgfstroke
+\pgfmoveto{\pgfxy(94.75,28.38)}\pgfcurveto{\pgfxy(94.59,29.62)}{\pgfxy(93.90,30.70)}{\pgfxy(93.04,31.59)}\pgfcurveto{\pgfxy(91.22,33.46)}{\pgfxy(88.74,34.45)}{\pgfxy(86.22,35.10)}\pgfcurveto{\pgfxy(83.83,35.71)}{\pgfxy(81.39,36.04)}{\pgfxy(78.95,36.33)}\pgfcurveto{\pgfxy(76.68,36.59)}{\pgfxy(74.41,36.81)}{\pgfxy(72.13,36.89)}\pgfcurveto{\pgfxy(68.43,37.00)}{\pgfxy(64.74,36.73)}{\pgfxy(61.06,36.43)}\pgfcurveto{\pgfxy(57.61,36.15)}{\pgfxy(54.17,35.85)}{\pgfxy(50.77,35.24)}\pgfcurveto{\pgfxy(48.82,34.89)}{\pgfxy(46.88,34.44)}{\pgfxy(44.96,33.97)}\pgfcurveto{\pgfxy(43.13,33.53)}{\pgfxy(41.29,33.06)}{\pgfxy(39.66,32.11)}\pgfcurveto{\pgfxy(38.26,31.29)}{\pgfxy(37.04,30.10)}{\pgfxy(36.61,28.53)}\pgfcurveto{\pgfxy(36.18,26.97)}{\pgfxy(36.59,25.33)}{\pgfxy(37.50,23.99)}\pgfcurveto{\pgfxy(38.71,22.21)}{\pgfxy(40.61,21.12)}{\pgfxy(42.57,20.26)}\pgfcurveto{\pgfxy(45.61,18.93)}{\pgfxy(48.84,18.10)}{\pgfxy(52.11,17.58)}\pgfcurveto{\pgfxy(55.34,17.06)}{\pgfxy(58.61,16.83)}{\pgfxy(61.89,16.73)}\pgfcurveto{\pgfxy(66.41,16.59)}{\pgfxy(70.95,16.71)}{\pgfxy(75.44,17.28)}\pgfcurveto{\pgfxy(77.73,17.57)}{\pgfxy(79.99,17.98)}{\pgfxy(82.23,18.55)}\pgfcurveto{\pgfxy(84.79,19.20)}{\pgfxy(87.30,20.07)}{\pgfxy(89.65,21.30)}\pgfcurveto{\pgfxy(92.55,22.83)}{\pgfxy(95.16,25.26)}{\pgfxy(94.75,28.38)}\pgfclosepath\pgfstroke
+\pgfsetlinewidth{0.47mm}\pgfmoveto{\pgfxy(48.81,27.94)}\pgfcurveto{\pgfxy(47.72,27.91)}{\pgfxy(46.69,28.35)}{\pgfxy(45.88,29.08)}\pgfcurveto{\pgfxy(45.30,29.60)}{\pgfxy(44.86,30.25)}{\pgfxy(44.50,30.95)}\pgfcurveto{\pgfxy(44.19,31.54)}{\pgfxy(43.93,32.16)}{\pgfxy(43.77,32.81)}\pgfcurveto{\pgfxy(43.49,33.91)}{\pgfxy(43.44,35.11)}{\pgfxy(42.70,35.97)}\pgfcurveto{\pgfxy(42.27,36.47)}{\pgfxy(41.66,36.77)}{\pgfxy(41.01,36.85)}\pgfcurveto{\pgfxy(39.71,36.99)}{\pgfxy(38.52,36.26)}{\pgfxy(37.67,35.25)}\pgfcurveto{\pgfxy(36.97,34.43)}{\pgfxy(36.49,33.45)}{\pgfxy(36.21,32.41)}\pgfcurveto{\pgfxy(35.86,31.13)}{\pgfxy(35.80,29.79)}{\pgfxy(36.13,28.51)}\pgfcurveto{\pgfxy(36.39,27.46)}{\pgfxy(36.90,26.49)}{\pgfxy(37.67,25.74)}\pgfcurveto{\pgfxy(38.07,25.35)}{\pgfxy(38.58,25.02)}{\pgfxy(39.13,25.09)}\pgfcurveto{\pgfxy(39.89,25.19)}{\pgfxy(40.36,25.93)}{\pgfxy(40.45,26.73)}\pgfcurveto{\pgfxy(40.54,27.47)}{\pgfxy(40.34,28.21)}{\pgfxy(39.98,28.86)}\pgfcurveto{\pgfxy(39.58,29.57)}{\pgfxy(38.99,30.15)}{\pgfxy(38.32,30.62)}\pgfcurveto{\pgfxy(37.55,31.16)}{\pgfxy(36.66,31.55)}{\pgfxy(35.72,31.51)}\pgfcurveto{\pgfxy(34.63,31.47)}{\pgfxy(33.66,30.88)}{\pgfxy(32.96,30.05)}\pgfcurveto{\pgfxy(31.92,28.83)}{\pgfxy(31.53,27.23)}{\pgfxy(31.57,25.63)}\pgfcurveto{\pgfxy(31.62,23.45)}{\pgfxy(32.48,21.34)}{\pgfxy(34.17,19.97)}\pgfcurveto{\pgfxy(36.41,18.16)}{\pgfxy(39.52,18.03)}{\pgfxy(42.10,19.34)}\pgfcurveto{\pgfxy(43.28,19.93)}{\pgfxy(44.31,20.82)}{\pgfxy(44.90,22.00)}\pgfcurveto{\pgfxy(45.36,22.91)}{\pgfxy(45.53,23.94)}{\pgfxy(45.31,24.93)}\pgfcurveto{\pgfxy(45.16,25.60)}{\pgfxy(44.81,26.24)}{\pgfxy(44.17,26.47)}\pgfcurveto{\pgfxy(43.09,26.87)}{\pgfxy(42.07,25.96)}{\pgfxy(41.49,24.85)}\pgfcurveto{\pgfxy(40.92,23.77)}{\pgfxy(40.61,22.57)}{\pgfxy(40.60,21.35)}\pgfcurveto{\pgfxy(40.58,19.78)}{\pgfxy(41.06,18.24)}{\pgfxy(41.98,16.96)}\pgfcurveto{\pgfxy(42.69,15.98)}{\pgfxy(43.64,15.19)}{\pgfxy(44.74,14.69)}\pgfcurveto{\pgfxy(46.01,14.11)}{\pgfxy(47.43,13.94)}{\pgfxy(48.81,14.20)}\pgfcurveto{\pgfxy(50.49,14.52)}{\pgfxy(51.98,15.44)}{\pgfxy(53.11,16.72)}\pgfcurveto{\pgfxy(54.13,17.87)}{\pgfxy(54.82,19.27)}{\pgfxy(55.06,20.78)}\pgfcurveto{\pgfxy(55.20,21.61)}{\pgfxy(55.19,22.47)}{\pgfxy(54.82,23.22)}\pgfcurveto{\pgfxy(54.57,23.74)}{\pgfxy(54.16,24.17)}{\pgfxy(53.60,24.28)}\pgfcurveto{\pgfxy(52.64,24.47)}{\pgfxy(51.84,23.70)}{\pgfxy(51.33,22.82)}\pgfcurveto{\pgfxy(50.79,21.90)}{\pgfxy(50.45,20.87)}{\pgfxy(50.35,19.81)}\pgfcurveto{\pgfxy(50.23,18.52)}{\pgfxy(50.48,17.23)}{\pgfxy(51.00,16.05)}\pgfcurveto{\pgfxy(51.54,14.84)}{\pgfxy(52.36,13.76)}{\pgfxy(53.44,12.98)}\pgfcurveto{\pgfxy(54.83,11.98)}{\pgfxy(56.55,11.53)}{\pgfxy(58.23,11.84)}\pgfcurveto{\pgfxy(59.52,12.08)}{\pgfxy(60.68,12.75)}{\pgfxy(61.65,13.63)}\pgfcurveto{\pgfxy(62.84,14.72)}{\pgfxy(63.73,16.11)}{\pgfxy(64.01,17.70)}\pgfcurveto{\pgfxy(64.22,18.93)}{\pgfxy(64.05,20.19)}{\pgfxy(63.60,21.35)}\pgfcurveto{\pgfxy(63.34,22.01)}{\pgfxy(62.96,22.66)}{\pgfxy(62.30,22.90)}\pgfcurveto{\pgfxy(60.25,23.62)}{\pgfxy(58.77,20.77)}{\pgfxy(59.62,17.61)}\pgfcurveto{\pgfxy(59.91,16.51)}{\pgfxy(60.22,15.41)}{\pgfxy(60.84,14.44)}\pgfcurveto{\pgfxy(61.57,13.28)}{\pgfxy(62.69,12.41)}{\pgfxy(64.00,11.97)}\pgfcurveto{\pgfxy(65.33,11.51)}{\pgfxy(66.78,11.52)}{\pgfxy(68.07,12.09)}\pgfcurveto{\pgfxy(69.32,12.63)}{\pgfxy(70.28,13.65)}{\pgfxy(70.91,14.85)}\pgfcurveto{\pgfxy(71.62,16.20)}{\pgfxy(71.90,17.72)}{\pgfxy(71.89,19.24)}\pgfcurveto{\pgfxy(71.88,21.12)}{\pgfxy(70.93,22.91)}{\pgfxy(69.37,22.65)}\pgfcurveto{\pgfxy(68.33,22.48)}{\pgfxy(67.81,21.39)}{\pgfxy(67.66,20.30)}\pgfcurveto{\pgfxy(67.41,18.42)}{\pgfxy(67.91,16.52)}{\pgfxy(69.05,15.01)}\pgfcurveto{\pgfxy(69.87,13.91)}{\pgfxy(71.02,13.07)}{\pgfxy(72.38,12.82)}\pgfcurveto{\pgfxy(74.31,12.46)}{\pgfxy(76.25,13.34)}{\pgfxy(77.42,14.93)}
+ \pgfcurveto{\pgfxy(78.73,16.72)}{\pgfxy(78.85,19.07)}{\pgfxy(79.86,21.03)}\pgfcurveto{\pgfxy(80.35,22.00)}{\pgfxy(81.06,22.86)}{\pgfxy(81.97,23.47)}\pgfcurveto{\pgfxy(83.21,24.30)}{\pgfxy(84.74,24.62)}{\pgfxy(86.16,24.20)}\pgfcurveto{\pgfxy(87.36,23.85)}{\pgfxy(88.35,23.01)}{\pgfxy(88.96,21.92)}\pgfcurveto{\pgfxy(89.68,20.64)}{\pgfxy(89.83,19.12)}{\pgfxy(89.46,17.69)}\pgfcurveto{\pgfxy(89.09,16.29)}{\pgfxy(88.12,15.03)}{\pgfxy(86.73,15.06)}\pgfcurveto{\pgfxy(86.06,15.07)}{\pgfxy(85.45,15.43)}{\pgfxy(84.98,15.91)}\pgfcurveto{\pgfxy(83.34,17.53)}{\pgfxy(83.23,20.06)}{\pgfxy(84.08,22.24)}\pgfcurveto{\pgfxy(84.82,24.13)}{\pgfxy(86.19,25.68)}{\pgfxy(87.71,27.01)}\pgfcurveto{\pgfxy(88.96,28.10)}{\pgfxy(90.33,29.06)}{\pgfxy(91.78,29.88)}\pgfcurveto{\pgfxy(94.40,31.35)}{\pgfxy(97.55,32.19)}{\pgfxy(99.84,30.41)}\pgfcurveto{\pgfxy(101.01,29.49)}{\pgfxy(101.62,28.01)}{\pgfxy(101.32,26.56)}\pgfcurveto{\pgfxy(100.76,23.86)}{\pgfxy(97.81,22.61)}{\pgfxy(94.89,22.74)}\pgfcurveto{\pgfxy(92.98,22.82)}{\pgfxy(91.13,23.38)}{\pgfxy(89.45,24.28)}\pgfcurveto{\pgfxy(87.08,25.55)}{\pgfxy(85.11,27.45)}{\pgfxy(83.68,29.73)}\pgfcurveto{\pgfxy(82.97,30.85)}{\pgfxy(82.39,32.05)}{\pgfxy(81.97,33.31)}\pgfcurveto{\pgfxy(81.43,34.88)}{\pgfxy(81.13,36.52)}{\pgfxy(81.16,38.18)}\pgfcurveto{\pgfxy(81.20,40.31)}{\pgfxy(82.50,42.14)}{\pgfxy(84.08,41.59)}\pgfcurveto{\pgfxy(85.02,41.27)}{\pgfxy(85.37,40.18)}{\pgfxy(85.22,39.15)}\pgfcurveto{\pgfxy(85.07,38.13)}{\pgfxy(84.51,37.23)}{\pgfxy(83.88,36.41)}\pgfcurveto{\pgfxy(82.13,34.10)}{\pgfxy(79.86,32.27)}{\pgfxy(77.36,30.81)}\pgfcurveto{\pgfxy(75.90,29.96)}{\pgfxy(74.31,29.24)}{\pgfxy(72.62,29.32)}\pgfcurveto{\pgfxy(71.57,29.37)}{\pgfxy(70.55,29.74)}{\pgfxy(69.78,30.46)}\pgfcurveto{\pgfxy(68.67,31.49)}{\pgfxy(68.27,33.01)}{\pgfxy(68.15,34.52)}\pgfcurveto{\pgfxy(68.04,35.98)}{\pgfxy(68.17,37.45)}{\pgfxy(68.72,38.80)}\pgfcurveto{\pgfxy(69.13,39.84)}{\pgfxy(69.90,40.80)}{\pgfxy(70.98,40.77)}\pgfcurveto{\pgfxy(72.73,40.72)}{\pgfxy(73.37,38.55)}{\pgfxy(72.95,36.47)}\pgfcurveto{\pgfxy(72.71,35.32)}{\pgfxy(72.34,34.19)}{\pgfxy(71.81,33.14)}\pgfcurveto{\pgfxy(71.07,31.69)}{\pgfxy(70.00,30.40)}{\pgfxy(68.56,29.64)}\pgfcurveto{\pgfxy(67.27,28.98)}{\pgfxy(65.79,28.80)}{\pgfxy(64.38,29.14)}\pgfcurveto{\pgfxy(62.90,29.50)}{\pgfxy(61.62,30.40)}{\pgfxy(60.71,31.62)}\pgfcurveto{\pgfxy(59.55,33.18)}{\pgfxy(59.08,35.11)}{\pgfxy(58.88,37.04)}\pgfcurveto{\pgfxy(58.71,38.79)}{\pgfxy(59.20,40.64)}{\pgfxy(60.73,40.77)}\pgfcurveto{\pgfxy(61.66,40.85)}{\pgfxy(62.41,40.13)}{\pgfxy(62.82,39.25)}\pgfcurveto{\pgfxy(63.26,38.29)}{\pgfxy(63.34,37.21)}{\pgfxy(63.27,36.15)}\pgfcurveto{\pgfxy(63.18,34.70)}{\pgfxy(62.84,33.27)}{\pgfxy(62.14,32.00)}\pgfcurveto{\pgfxy(61.49,30.84)}{\pgfxy(60.56,29.84)}{\pgfxy(59.37,29.24)}\pgfcurveto{\pgfxy(57.96,28.52)}{\pgfxy(56.30,28.43)}{\pgfxy(54.82,28.99)}\pgfcurveto{\pgfxy(53.67,29.43)}{\pgfxy(52.71,30.24)}{\pgfxy(51.97,31.21)}\pgfcurveto{\pgfxy(51.03,32.45)}{\pgfxy(50.47,33.94)}{\pgfxy(50.43,35.50)}\pgfcurveto{\pgfxy(50.41,36.19)}{\pgfxy(50.51,36.89)}{\pgfxy(50.68,37.56)}\pgfcurveto{\pgfxy(50.83,38.15)}{\pgfxy(51.06,38.74)}{\pgfxy(51.55,39.09)}\pgfcurveto{\pgfxy(52.10,39.49)}{\pgfxy(52.84,39.48)}{\pgfxy(53.42,39.12)}\pgfcurveto{\pgfxy(53.99,38.76)}{\pgfxy(54.29,38.13)}{\pgfxy(54.47,37.48)}\pgfcurveto{\pgfxy(54.82,36.25)}{\pgfxy(54.76,34.95)}{\pgfxy(54.55,33.68)}\pgfcurveto{\pgfxy(54.42,32.88)}{\pgfxy(54.23,32.07)}{\pgfxy(53.85,31.35)}\pgfcurveto{\pgfxy(53.41,30.53)}{\pgfxy(52.75,29.86)}{\pgfxy(52.02,29.28)}\pgfcurveto{\pgfxy(51.09,28.54)}{\pgfxy(50.00,27.97)}{\pgfxy(48.81,27.94)}\pgfclosepath\pgfstroke
+\pgfsetlinewidth{0.31mm}\pgfellipse[stroke]{\pgfxy(64.65,27.21)}{\pgfxy(-39.18,0.00)}{\pgfxy(0.00,-22.76)}
+\pgfmoveto{\pgfxy(43.58,11.48)}\pgfcurveto{\pgfxy(46.42,10.07)}{\pgfxy(48.96,9.20)}{\pgfxy(52.04,8.72)}\pgfstroke
+\pgfmoveto{\pgfxy(52.04,8.72)}\pgflineto{\pgfxy(49.46,10.01)}\pgflineto{\pgfxy(49.99,9.18)}\pgflineto{\pgfxy(49.15,8.64)}\pgflineto{\pgfxy(52.04,8.72)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(52.04,8.72)}\pgflineto{\pgfxy(49.46,10.01)}\pgflineto{\pgfxy(49.99,9.18)}\pgflineto{\pgfxy(49.15,8.64)}\pgflineto{\pgfxy(52.04,8.72)}\pgfclosepath\pgfstroke
+\pgfsetlinewidth{0.16mm}\pgfline{\pgfxy(83.51,30.47)}{\pgfxy(89.48,36.44)}\pgfline{\pgfxy(83.02,27.86)}{\pgfxy(92.09,36.93)}\pgfline{\pgfxy(83.14,25.86)}{\pgfxy(94.09,36.81)}\pgfline{\pgfxy(83.58,24.18)}{\pgfxy(95.77,36.37)}\pgfline{\pgfxy(84.25,22.73)}{\pgfxy(97.22,35.70)}\pgfline{\pgfxy(85.11,21.47)}{\pgfxy(98.48,34.84)}\pgfline{\pgfxy(86.14,20.38)}{\pgfxy(99.57,33.81)}\pgfline{\pgfxy(87.34,19.46)}{\pgfxy(100.49,32.61)}\pgfline{\pgfxy(88.72,18.72)}{\pgfxy(101.23,31.23)}\pgfline{\pgfxy(90.31,18.19)}{\pgfxy(101.76,29.64)}\pgfline{\pgfxy(92.18,17.93)}{\pgfxy(102.02,27.77)}\pgfline{\pgfxy(94.51,18.14)}{\pgfxy(101.81,25.44)}\pgfline{\pgfxy(98.72,20.23)}{\pgfxy(99.72,21.23)}
+\pgfsetdash{{3.00mm}{1.50mm}}{0mm}\pgfsetlinewidth{0.31mm}\pgfcircle[stroke]{\pgfxy(92.51,27.44)}{9.51mm}
+\pgfcircle[stroke]{\pgfxy(92.65,27.37)}{11.19mm}
+\pgfsetdash{}{0mm}\pgfmoveto{\pgfxy(92.49,27.35)}\pgflineto{\pgfxy(92.98,49.60)}\pgfstroke
+\pgfmoveto{\pgfxy(92.98,49.60)}\pgflineto{\pgfxy(92.22,46.82)}\pgflineto{\pgfxy(92.93,47.50)}\pgflineto{\pgfxy(93.62,46.79)}\pgflineto{\pgfxy(92.98,49.60)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(92.98,49.60)}\pgflineto{\pgfxy(92.22,46.82)}\pgflineto{\pgfxy(92.93,47.50)}\pgflineto{\pgfxy(93.62,46.79)}\pgflineto{\pgfxy(92.98,49.60)}\pgfclosepath\pgfstroke
+\pgfmoveto{\pgfxy(92.37,27.47)}\pgflineto{\pgfxy(112.03,27.38)}\pgfstroke
+\pgfmoveto{\pgfxy(112.03,27.38)}\pgflineto{\pgfxy(109.23,28.09)}\pgflineto{\pgfxy(109.93,27.39)}\pgflineto{\pgfxy(109.23,26.69)}\pgflineto{\pgfxy(112.03,27.38)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(112.03,27.38)}\pgflineto{\pgfxy(109.23,28.09)}\pgflineto{\pgfxy(109.93,27.39)}\pgflineto{\pgfxy(109.23,26.69)}\pgflineto{\pgfxy(112.03,27.38)}\pgfclosepath\pgfstroke
+\pgfsetdash{{3.00mm}{1.50mm}}{0mm}\pgfellipse[stroke]{\pgfxy(36.49,27.23)}{\pgfxy(-11.06,0.00)}{\pgfxy(0.00,-11.33)}
+\pgfsetdash{}{0mm}\pgfsetlinewidth{0.16mm}\pgfmoveto{\pgfxy(48.32,54.31)}\pgflineto{\pgfxy(60.03,40.73)}\pgfstroke
+\pgfsetlinewidth{0.31mm}\pgfmoveto{\pgfxy(19.31,67.33)}\pgflineto{\pgfxy(21.55,71.44)}\pgfstroke
+\pgfsetlinewidth{0.16mm}\pgfmoveto{\pgfxy(11.80,41.12)}\pgflineto{\pgfxy(48.40,54.29)}\pgfstroke
+\pgfsetlinewidth{0.31mm}\pgfmoveto{\pgfxy(-19.67,-7.29)}\pgflineto{\pgfxy(-13.49,3.22)}\pgfstroke
+\pgfmoveto{\pgfxy(-13.49,3.22)}\pgflineto{\pgfxy(-15.51,1.17)}\pgflineto{\pgfxy(-14.55,1.41)}\pgflineto{\pgfxy(-14.31,0.45)}\pgflineto{\pgfxy(-13.49,3.22)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(-13.49,3.22)}\pgflineto{\pgfxy(-15.51,1.17)}\pgflineto{\pgfxy(-14.55,1.41)}\pgflineto{\pgfxy(-14.31,0.45)}\pgflineto{\pgfxy(-13.49,3.22)}\pgfclosepath\pgfstroke
+\pgfputat{\pgfxy(89.54,48.81)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont $x$}}
+\pgfputat{\pgfxy(109.55,22.95)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont $y$}}
+\pgfputat{\pgfxy(73.54,21.74)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont $I_1$}}
+\pgfputat{\pgfxy(66.71,8.48)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont $B$}}
+\pgfputat{\pgfxy(54.48,7.42)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont $B_0$}}
+\pgfputat{\pgfxy(47.95,55.88)}{\pgfbox[bottom,left]{\rotatebox{-5.00}{\fontsize{9.96}{11.95}\selectfont \smash{\makebox[0pt]{\textit{Field line}}}}}}
+\color[rgb]{1,1,1}\pgfmoveto{\pgfxy(72.32,36.71)}\pgflineto{\pgfxy(73.77,36.65)}\pgflineto{\pgfxy(73.53,35.68)}\pgflineto{\pgfxy(72.19,35.73)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(62.62,36.40)}\pgflineto{\pgfxy(64.15,36.52)}\pgflineto{\pgfxy(63.90,35.63)}\pgflineto{\pgfxy(62.57,35.60)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(54.20,35.63)}\pgflineto{\pgfxy(55.21,35.73)}\pgflineto{\pgfxy(55.25,34.91)}\pgflineto{\pgfxy(54.15,34.76)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(45.09,33.85)}\pgflineto{\pgfxy(45.87,34.02)}\pgflineto{\pgfxy(46.23,33.24)}\pgflineto{\pgfxy(45.54,33.03)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(37.83,26.07)}\pgfcurveto{\pgfxy(37.94,25.64)}{\pgfxy(38.11,25.26)}{\pgfxy(38.29,24.89)}\pgfcurveto{\pgfxy(38.62,24.21)}{\pgfxy(36.75,25.69)}{\pgfxy(36.67,26.44)}\pgfcurveto{\pgfxy(36.61,26.95)}{\pgfxy(36.58,27.39)}{\pgfxy(36.64,27.95)}\pgfcurveto{\pgfxy(36.70,28.50)}{\pgfxy(37.68,26.60)}{\pgfxy(37.83,26.07)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(44.41,19.68)}\pgflineto{\pgfxy(45.17,20.71)}\pgflineto{\pgfxy(45.93,20.49)}\pgflineto{\pgfxy(44.88,19.53)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(53.14,17.59)}\pgflineto{\pgfxy(53.93,18.79)}\pgflineto{\pgfxy(54.98,18.62)}\pgflineto{\pgfxy(54.32,17.42)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(63.30,16.86)}\pgflineto{\pgfxy(63.59,17.86)}\pgflineto{\pgfxy(64.47,17.83)}\pgflineto{\pgfxy(64.20,16.84)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(42.86,20.30)}\pgflineto{\pgfxy(43.74,21.17)}\pgflineto{\pgfxy(44.64,20.88)}\pgflineto{\pgfxy(43.68,19.97)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(71.34,17.04)}\pgflineto{\pgfxy(71.52,18.08)}\pgflineto{\pgfxy(72.31,18.15)}\pgflineto{\pgfxy(72.10,17.09)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(83.32,19.01)}\pgfcurveto{\pgfxy(83.02,18.93)}{\pgfxy(82.95,19.87)}{\pgfxy(82.82,20.15)}\pgfcurveto{\pgfxy(83.16,20.26)}{\pgfxy(83.84,20.46)}{\pgfxy(84.17,20.56)}\pgfcurveto{\pgfxy(84.37,20.30)}{\pgfxy(85.26,19.60)}{\pgfxy(84.95,19.50)}\pgfcurveto{\pgfxy(84.55,19.37)}{\pgfxy(83.77,19.12)}{\pgfxy(83.32,19.01)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(82.70,35.66)}\pgflineto{\pgfxy(83.62,35.50)}\pgflineto{\pgfxy(82.94,34.75)}\pgflineto{\pgfxy(82.09,34.91)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(94.60,27.29)}\pgfcurveto{\pgfxy(94.60,26.59)}{\pgfxy(94.05,24.90)}{\pgfxy(92.69,23.68)}\pgfcurveto{\pgfxy(91.48,22.52)}{\pgfxy(90.87,22.14)}{\pgfxy(89.54,21.42)}\pgfcurveto{\pgfxy(89.42,21.72)}{\pgfxy(89.26,22.09)}{\pgfxy(89.03,22.40)}\pgfcurveto{\pgfxy(89.79,22.72)}{\pgfxy(90.50,23.09)}{\pgfxy(91.17,23.54)}\pgfcurveto{\pgfxy(91.97,24.09)}{\pgfxy(92.66,24.81)}{\pgfxy(93.09,25.69)}\pgfcurveto{\pgfxy(93.34,26.19)}{\pgfxy(93.48,26.78)}{\pgfxy(93.48,27.31)}\pgfcurveto{\pgfxy(93.62,27.31)}{\pgfxy(94.46,27.29)}{\pgfxy(94.60,27.29)}\pgfclosepath\pgffill
+\color[rgb]{0,0,0}\pgfmoveto{\pgfxy(68.67,38.62)}\pgfcurveto{\pgfxy(68.49,38.58)}{\pgfxy(67.91,38.21)}{\pgfxy(67.58,37.90)}\pgfcurveto{\pgfxy(67.75,38.69)}{\pgfxy(68.61,40.31)}{\pgfxy(70.33,40.77)}\pgfcurveto{\pgfxy(69.58,39.22)}{\pgfxy(69.36,39.12)}{\pgfxy(69.02,37.46)}\pgfcurveto{\pgfxy(68.92,37.78)}{\pgfxy(68.73,38.47)}{\pgfxy(68.67,38.62)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(34.58,19.82)}\pgflineto{\pgfxy(35.82,18.96)}\pgfstroke
+\pgfmoveto{\pgfxy(35.82,18.96)}\pgflineto{\pgfxy(33.93,21.13)}\pgflineto{\pgfxy(34.10,20.16)}\pgflineto{\pgfxy(33.13,19.98)}\pgflineto{\pgfxy(35.82,18.96)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(35.82,18.96)}\pgflineto{\pgfxy(33.93,21.13)}\pgflineto{\pgfxy(34.10,20.16)}\pgflineto{\pgfxy(33.13,19.98)}\pgflineto{\pgfxy(35.82,18.96)}\pgfclosepath\pgfstroke
+\pgfputat{\pgfxy(65.28,-5.54)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont b)}}
+\pgfputat{\pgfxy(7.28,-2.82)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont a)}}
+\pgfputat{\pgfxy(-12.30,0.14)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont $I_1$}}
+\pgfputat{\pgfxy(-1.87,67.78)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont $x$}}
+\pgfputat{\pgfxy(14.01,24.79)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont $y$}}
+\pgfputat{\pgfxy(24.00,70.54)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont $z$}}
+\pgfputat{\pgfxy(1.29,13.43)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont $B_0$}}
+\pgfputat{\pgfxy(15.89,52.87)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont $B$}}
+\pgfsetlinewidth{0.16mm}\pgfline{\pgfxy(-1.50,35.80)}{\pgfxy(-1.50,36.34)}\pgfline{\pgfxy(0.00,33.61)}{\pgfxy(0.00,38.39)}\pgfline{\pgfxy(1.50,32.33)}{\pgfxy(1.50,37.77)}\pgfline{\pgfxy(3.00,31.60)}{\pgfxy(3.00,36.60)}
+\pgfmoveto{\pgfxy(14.14,51.83)}\pgfcurveto{\pgfxy(14.16,52.02)}{\pgfxy(14.31,52.64)}{\pgfxy(14.11,53.03)}\pgfcurveto{\pgfxy(14.73,52.32)}{\pgfxy(15.25,51.28)}{\pgfxy(15.73,49.67)}\pgfcurveto{\pgfxy(14.46,50.81)}{\pgfxy(14.42,51.04)}{\pgfxy(12.95,51.82)}\pgfcurveto{\pgfxy(13.28,51.83)}{\pgfxy(13.98,51.82)}{\pgfxy(14.14,51.83)}\pgfclosepath\pgffill
+\pgfsetlinewidth{0.31mm}\pgfmoveto{\pgfxy(18.41,48.53)}\pgfcurveto{\pgfxy(18.52,48.76)}{\pgfxy(21.52,54.65)}{\pgfxy(21.54,54.69)}\pgfcurveto{\pgfxy(21.98,55.63)}{\pgfxy(21.69,56.97)}{\pgfxy(20.74,58.34)}\pgfcurveto{\pgfxy(19.75,59.76)}{\pgfxy(18.11,61.16)}{\pgfxy(16.18,62.23)}\pgfcurveto{\pgfxy(14.25,63.29)}{\pgfxy(12.20,63.94)}{\pgfxy(10.47,64.03)}\pgfcurveto{\pgfxy(8.75,64.12)}{\pgfxy(7.59,63.68)}{\pgfxy(6.95,62.80)}\pgfcurveto{\pgfxy(6.92,62.76)}{\pgfxy(4.30,58.92)}{\pgfxy(4.23,58.81)}\pgfstroke
+\color[rgb]{1,1,1}\pgfmoveto{\pgfxy(-15.54,8.87)}\pgflineto{\pgfxy(-15.85,8.33)}\pgflineto{\pgfxy(-14.54,7.58)}\pgflineto{\pgfxy(-14.23,8.12)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(-9.86,18.66)}\pgflineto{\pgfxy(-10.27,17.95)}\pgflineto{\pgfxy(-8.94,17.18)}\pgflineto{\pgfxy(-8.53,17.89)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(-4.86,27.24)}\pgflineto{\pgfxy(-5.30,26.49)}\pgflineto{\pgfxy(-3.98,25.72)}\pgflineto{\pgfxy(-3.54,26.48)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(-0.61,34.59)}\pgflineto{\pgfxy(-1.08,33.76)}\pgflineto{\pgfxy(0.25,32.99)}\pgflineto{\pgfxy(0.50,33.43)}\pgflineto{\pgfxy(0.25,33.98)}\pgflineto{\pgfxy(-0.07,33.99)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(4.21,42.85)}\pgflineto{\pgfxy(3.70,41.97)}\pgflineto{\pgfxy(5.03,41.20)}\pgflineto{\pgfxy(5.54,42.08)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(8.44,50.12)}\pgflineto{\pgfxy(7.98,49.32)}\pgflineto{\pgfxy(9.31,48.55)}\pgflineto{\pgfxy(9.77,49.35)}\pgfclosepath\pgffill
+\end{pgfpicture}%
+\end{figure}

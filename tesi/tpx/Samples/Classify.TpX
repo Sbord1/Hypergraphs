@@ -1,0 +1,372 @@
+%<TpX v="5" TeXFormat="pgf" PdfTeXFormat="pgf" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3" TeXPicPrologue="\textsf{" TeXPicEpilogue="}">
+%  <text x="52.5" y="-4.83467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="33" y="-9.63467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="27" y="-5.43467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="45" y="-8.43467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="57" y="0.56533" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="54" y="2.36533" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="70.5" y="17.6653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="55.5" y="-5.13467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="58.5" y="14.6653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="72" y="12.2653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="31.5" y="-3.33467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="69" y="20.3653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="40.5" y="-6.93467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="27.75" y="-9.78467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="43.5" y="-0.034668" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="69" y="-5.73467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="58.5" y="-0.034668" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="66" y="37.7653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="64.5" y="-5.13467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="42" y="-3.93467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="36" y="-1.23467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="60" y="39.5653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="64.5" y="12.5653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="30.75" y="-9.63467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="33" y="-2.43467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="52.5" y="7.46533" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="37.5" y="-8.13467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="70.5" y="8.66533" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="48" y="-6.63467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="72" y="5.36533" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="31.5" y="-6.63467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="42" y="3.26533" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="58.5" y="-6.63467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="42" y="-4.83467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="34.5" y="-2.73467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="57" y="11.6653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="57" y="25.1653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="57" y="35.0653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="49.5" y="-3.93467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="34.5" y="4.76533" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="51" y="3.56533" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="72" y="-1.83467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="49.5" y="-0.334668" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="64.5" y="6.26533" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="34.5" y="17.3653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="45" y="-5.13467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="63" y="24.5653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="43.5" y="-6.03467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="34.5" y="-3.93467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="69" y="-0.934668" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="46.5" y="-1.23467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="36" y="-0.634668" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="39" y="9.8653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="63" y="-1.83467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="55.5" y="22.1653" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="58.5" y="3.26533" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="46.5" y="-3.93467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="28.5" y="-4.83467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="58.5" y="-1.23467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="51" y="-6.03467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="31.5" y="-1.53467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="48" y="-0.934668" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="36" y="-7.83467" t="A" h="2" halign="c" lc="indianred"/>
+%  <text x="43.5" y="-7.53467" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="49.5" y="11.3653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="40.5" y="-0.334668" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="46.5" y="16.1653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="63" y="8.06533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="42" y="-2.13467" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="64.5" y="18.5653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="51" y="8.96533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="72" y="8.06533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="54" y="9.8653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="58.5" y="8.66533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="48" y="0.56533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="57" y="16.1653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="57" y="-3.63467" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="64.5" y="3.86533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="57" y="2.36533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="57" y="6.56533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="55.5" y="12.8653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="48" y="6.56533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="57" y="20.3653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="58.5" y="17.3653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="64.5" y="16.1653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="64.5" y="21.2653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="66" y="22.1653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="64.5" y="23.0653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="63" y="27.2653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="63" y="11.9653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="49.5" y="10.1653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="70.5" y="37.7653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="63" y="2.66533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="69" y="17.0653" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="45" y="6.56533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="42" y="1.16533" t="F" h="2" halign="c" lc="mediumblue"/>
+%  <text x="61.5" y="30.5653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="39" y="2.06533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="34.5" y="3.26533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="40.5" y="-1.23467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="55.5" y="26.9653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="46.5" y="8.66533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="63" y="12.5653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="36" y="0.56533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="64.5" y="5.06533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="69" y="14.0653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="54" y="5.06533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="48" y="13.7653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="48" y="5.06533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="34.5" y="2.36533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="61.5" y="11.6653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="42" y="11.0653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="48" y="2.66533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="39" y="-6.33467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="51" y="29.9653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="69" y="15.8653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="49.5" y="18.5653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="51" y="-0.934668" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="42" y="7.76533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="58.5" y="4.76533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="28.5" y="-6.33467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="54" y="-2.43467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="37.5" y="5.66533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="51" y="15.5653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="37.5" y="-5.43467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="66" y="39.8653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="34.5" y="-0.934668" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="42" y="13.7653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="43.5" y="12.5653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="33" y="-6.33467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="25.5" y="-7.23467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="63" y="20.0653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="64.5" y="11.3653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="30" y="-0.634668" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="45" y="-2.43467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="33" y="-0.034668" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="40.5" y="3.86533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="36" y="11.9653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="42" y="14.0653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="54" y="39.5653" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="36" y="-2.43467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="34.5" y="-6.33467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="46.5" y="-2.73467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="51" y="8.06533" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="36" y="-5.13467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <text x="33" y="-4.53467" t="L" h="2" halign="c" lc="forestgreen"/>
+%  <polyline arr1="h40" arr2="h40">15,53.3333 15,-9.66667 17.25,-9.66667 18,-7.41667 18.75,-11.9167 19.5,-9.66667 84,-9.66667</polyline>
+%  <line x1="15" y1="-1.16668" x2="75" y2="-1.16668" li="dash" lw="0.50"/>
+%  <line x1="14.6005" y1="7.61432" x2="74.6005" y2="7.61432" li="dash" lw="0.50"/>
+%  <line x1="15" y1="17.3333" x2="75" y2="17.3333" li="dash" lw="0.50"/>
+%  <line x1="15" y1="26.3333" x2="75" y2="26.3333" li="dash" lw="0.50"/>
+%  <line x1="15" y1="35.3333" x2="75" y2="35.3333" li="dash" lw="0.50"/>
+%  <line x1="15" y1="44.3333" x2="75" y2="44.3333" li="dash" lw="0.50"/>
+%  <text x="13.5" y="-1.66067" t="2" h="3.5" halign="r"/>
+%  <text x="13.5" y="8.88073" t="4" h="3.5" halign="r"/>
+%  <text x="13.5" y="16.3393" t="6" h="3.5" halign="r"/>
+%  <text x="13.5" y="25.3393" t="8" h="3.5" halign="r"/>
+%  <text x="13.5" y="34.3393" t="10" h="3.5" halign="r"/>
+%  <text x="13.5" y="43.3393" t="12" h="3.5" halign="r"/>
+%  <line x1="22.5" y1="44.3333" x2="22.5" y2="-9.66667" li="dash" lw="0.50"/>
+%  <line x1="30" y1="44.3333" x2="30" y2="-9.66667" li="dash" lw="0.50"/>
+%  <line x1="37.5" y1="44.3333" x2="37.5" y2="-9.66667" li="dash" lw="0.50"/>
+%  <line x1="45" y1="44.3333" x2="45" y2="-9.66667" li="dash" lw="0.50"/>
+%  <line x1="52.9794" y1="44.3735" x2="52.9794" y2="-9.62649" li="dash" lw="0.50"/>
+%  <line x1="60" y1="44.3333" x2="60" y2="-9.66667" li="dash" lw="0.50"/>
+%  <line x1="67.5" y1="44.3333" x2="67.5" y2="-9.66667" li="dash" lw="0.50"/>
+%  <line x1="75" y1="44.3333" x2="75" y2="-9.66667" li="dash" lw="0.50"/>
+%  <text x="30" y="-13.9107" t="20" h="3.49999" halign="c"/>
+%  <text x="37.5" y="-13.9107" t="25" h="3.49999" halign="c"/>
+%  <text x="45" y="-13.9107" t="30" h="3.49999" halign="c"/>
+%  <text x="52.5" y="-13.9107" t="35" h="3.49999" halign="c"/>
+%  <text x="60" y="-13.9107" t="40" h="3.49999" halign="c"/>
+%  <text x="67.5" y="-13.9107" t="45" h="3.49999" halign="c"/>
+%  <text x="75.0242" y="-13.9107" t="50" h="3.49999" halign="c"/>
+%  <text x="22.5" y="-13.9107" t="15" h="3.49999" halign="c"/>
+%  <text x="79.3768" y="-7.65235" t="Age" tex="\textsl{Age}" h="3.5"/>
+%  <text x="16.4624" y="50.106" t="R" tex="\textsl{R}" h="3.5"/>
+%  <text x="13.5" y="-10.6607" t="0" h="3.5" halign="r"/>
+%</TpX>
+\begin{figure}
+\centering
+\textsf{%
+\begin{pgfpicture}{8.00mm}{-16.67mm}{87.21mm}{55.33mm}
+\pgfsetxvec{\pgfpoint{1.00mm}{0mm}}
+\pgfsetyvec{\pgfpoint{0mm}{1.00mm}}
+\color[rgb]{0,0,0}\pgfsetlinewidth{0.30mm}\pgfsetdash{}{0mm}
+\pgfputat{\pgfxy(52.50,-4.83)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(33.00,-9.63)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(27.00,-5.43)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(45.00,-8.43)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(57.00,0.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(54.00,2.37)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(70.50,17.67)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(55.50,-5.13)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(58.50,14.67)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(72.00,12.27)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(31.50,-3.33)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(69.00,20.37)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(40.50,-6.93)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(27.75,-9.78)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(43.50,-0.03)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(69.00,-5.73)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(58.50,-0.03)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(66.00,37.77)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(64.50,-5.13)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(42.00,-3.93)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(36.00,-1.23)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(60.00,39.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(64.50,12.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(30.75,-9.63)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(33.00,-2.43)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(52.50,7.47)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(37.50,-8.13)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(70.50,8.67)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(48.00,-6.63)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(72.00,5.37)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(31.50,-6.63)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(42.00,3.27)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(58.50,-6.63)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(42.00,-4.83)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(34.50,-2.73)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(57.00,11.67)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(57.00,25.17)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(57.00,35.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(49.50,-3.93)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(34.50,4.77)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(51.00,3.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(72.00,-1.83)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(49.50,-0.33)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(64.50,6.27)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(34.50,17.37)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(45.00,-5.13)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(63.00,24.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(43.50,-6.03)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(34.50,-3.93)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(69.00,-0.93)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(46.50,-1.23)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(36.00,-0.63)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(39.00,9.87)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(63.00,-1.83)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(55.50,22.17)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(58.50,3.27)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(46.50,-3.93)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(28.50,-4.83)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(58.50,-1.23)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(51.00,-6.03)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(31.50,-1.53)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(48.00,-0.93)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(36.00,-7.83)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.80392, 0.36078, 0.36078}{A\strut}}}}
+\pgfputat{\pgfxy(43.50,-7.53)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(49.50,11.37)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(40.50,-0.33)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(46.50,16.17)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(63.00,8.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(42.00,-2.13)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(64.50,18.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(51.00,8.97)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(72.00,8.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(54.00,9.87)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(58.50,8.67)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(48.00,0.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(57.00,16.17)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(57.00,-3.63)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(64.50,3.87)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(57.00,2.37)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(57.00,6.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(55.50,12.87)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(48.00,6.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(57.00,20.37)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(58.50,17.37)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(64.50,16.17)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(64.50,21.27)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(66.00,22.17)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(64.50,23.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(63.00,27.27)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(63.00,11.97)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(49.50,10.17)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(70.50,37.77)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(63.00,2.67)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(69.00,17.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(45.00,6.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(42.00,1.17)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0, 0, 0.80392}{F\strut}}}}
+\pgfputat{\pgfxy(61.50,30.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(39.00,2.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(34.50,3.27)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(40.50,-1.23)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(55.50,26.97)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(46.50,8.67)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(63.00,12.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(36.00,0.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(64.50,5.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(69.00,14.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(54.00,5.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(48.00,13.77)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(48.00,5.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(34.50,2.37)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(61.50,11.67)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(42.00,11.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(48.00,2.67)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(39.00,-6.33)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(51.00,29.97)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(69.00,15.87)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(49.50,18.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(51.00,-0.93)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(42.00,7.77)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(58.50,4.77)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(28.50,-6.33)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(54.00,-2.43)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(37.50,5.67)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(51.00,15.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(37.50,-5.43)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(66.00,39.87)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(34.50,-0.93)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(42.00,13.77)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(43.50,12.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(33.00,-6.33)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(25.50,-7.23)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(63.00,20.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(64.50,11.37)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(30.00,-0.63)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(45.00,-2.43)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(33.00,-0.03)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(40.50,3.87)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(36.00,11.97)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(42.00,14.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(54.00,39.57)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(36.00,-2.43)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(34.50,-6.33)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(46.50,-2.73)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(51.00,8.07)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(36.00,-5.13)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfputat{\pgfxy(33.00,-4.53)}{\pgfbox[bottom,left]{\fontsize{5.69}{6.83}\selectfont \makebox[0pt]{\textcolor[rgb]{0.13333, 0.5451, 0.13333}{L\strut}}}}
+\pgfmoveto{\pgfxy(15.00,53.33)}\pgflineto{\pgfxy(15.00,-9.67)}\pgflineto{\pgfxy(17.25,-9.67)}\pgflineto{\pgfxy(18.00,-7.42)}\pgflineto{\pgfxy(18.75,-11.92)}\pgflineto{\pgfxy(19.50,-9.67)}\pgflineto{\pgfxy(84.00,-9.67)}\pgfstroke
+\pgfmoveto{\pgfxy(15.00,53.33)}\pgflineto{\pgfxy(14.30,50.53)}\pgflineto{\pgfxy(15.00,53.33)}\pgflineto{\pgfxy(15.70,50.53)}\pgflineto{\pgfxy(15.00,53.33)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(15.00,53.33)}\pgflineto{\pgfxy(14.30,50.53)}\pgflineto{\pgfxy(15.00,53.33)}\pgflineto{\pgfxy(15.70,50.53)}\pgflineto{\pgfxy(15.00,53.33)}\pgfclosepath\pgfstroke
+\pgfmoveto{\pgfxy(84.00,-9.67)}\pgflineto{\pgfxy(81.20,-8.97)}\pgflineto{\pgfxy(84.00,-9.67)}\pgflineto{\pgfxy(81.20,-10.37)}\pgflineto{\pgfxy(84.00,-9.67)}\pgfclosepath\pgffill
+\pgfmoveto{\pgfxy(84.00,-9.67)}\pgflineto{\pgfxy(81.20,-8.97)}\pgflineto{\pgfxy(84.00,-9.67)}\pgflineto{\pgfxy(81.20,-10.37)}\pgflineto{\pgfxy(84.00,-9.67)}\pgfclosepath\pgfstroke
+\pgfsetdash{{2.00mm}{1.00mm}}{0mm}\pgfsetlinewidth{0.15mm}\pgfmoveto{\pgfxy(15.00,-1.17)}\pgflineto{\pgfxy(75.00,-1.17)}\pgfstroke
+\pgfmoveto{\pgfxy(14.60,7.61)}\pgflineto{\pgfxy(74.60,7.61)}\pgfstroke
+\pgfmoveto{\pgfxy(15.00,17.33)}\pgflineto{\pgfxy(75.00,17.33)}\pgfstroke
+\pgfmoveto{\pgfxy(15.00,26.33)}\pgflineto{\pgfxy(75.00,26.33)}\pgfstroke
+\pgfmoveto{\pgfxy(15.00,35.33)}\pgflineto{\pgfxy(75.00,35.33)}\pgfstroke
+\pgfmoveto{\pgfxy(15.00,44.33)}\pgflineto{\pgfxy(75.00,44.33)}\pgfstroke
+\pgfputat{\pgfxy(13.50,-1.66)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt][r]{2}}}
+\pgfputat{\pgfxy(13.50,8.88)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt][r]{4}}}
+\pgfputat{\pgfxy(13.50,16.34)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt][r]{6}}}
+\pgfputat{\pgfxy(13.50,25.34)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt][r]{8}}}
+\pgfputat{\pgfxy(13.50,34.34)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt][r]{10}}}
+\pgfputat{\pgfxy(13.50,43.34)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt][r]{12}}}
+\pgfmoveto{\pgfxy(22.50,44.33)}\pgflineto{\pgfxy(22.50,-9.67)}\pgfstroke
+\pgfmoveto{\pgfxy(30.00,44.33)}\pgflineto{\pgfxy(30.00,-9.67)}\pgfstroke
+\pgfmoveto{\pgfxy(37.50,44.33)}\pgflineto{\pgfxy(37.50,-9.67)}\pgfstroke
+\pgfmoveto{\pgfxy(45.00,44.33)}\pgflineto{\pgfxy(45.00,-9.67)}\pgfstroke
+\pgfmoveto{\pgfxy(52.98,44.37)}\pgflineto{\pgfxy(52.98,-9.63)}\pgfstroke
+\pgfmoveto{\pgfxy(60.00,44.33)}\pgflineto{\pgfxy(60.00,-9.67)}\pgfstroke
+\pgfmoveto{\pgfxy(67.50,44.33)}\pgflineto{\pgfxy(67.50,-9.67)}\pgfstroke
+\pgfmoveto{\pgfxy(75.00,44.33)}\pgflineto{\pgfxy(75.00,-9.67)}\pgfstroke
+\pgfputat{\pgfxy(30.00,-13.91)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt]{20}}}
+\pgfputat{\pgfxy(37.50,-13.91)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt]{25}}}
+\pgfputat{\pgfxy(45.00,-13.91)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt]{30}}}
+\pgfputat{\pgfxy(52.50,-13.91)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt]{35}}}
+\pgfputat{\pgfxy(60.00,-13.91)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt]{40}}}
+\pgfputat{\pgfxy(67.50,-13.91)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt]{45}}}
+\pgfputat{\pgfxy(75.02,-13.91)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt]{50}}}
+\pgfputat{\pgfxy(22.50,-13.91)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt]{15}}}
+\pgfputat{\pgfxy(79.38,-7.65)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \textsl{Age}}}
+\pgfputat{\pgfxy(16.46,50.11)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \textsl{R}}}
+\pgfputat{\pgfxy(13.50,-10.66)}{\pgfbox[bottom,left]{\fontsize{9.96}{11.95}\selectfont \makebox[0pt][r]{0}}}
+\end{pgfpicture}%
+}%
+\end{figure}

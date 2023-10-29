@@ -1,0 +1,33 @@
+\documentclass[a4paper,10pt]{article}
+% comment out unused packages below
+\usepackage{color}
+\usepackage{ifpdf}
+\ifpdf %if using pdfLaTeX in PDF mode
+  \usepackage[pdftex]{graphicx}
+  \DeclareGraphicsExtensions{.pdf,.png,.jpg,.jpeg,.mps}
+  \usepackage{pgf}
+  \usepackage{tikz}
+\else %if using LaTeX or pdfLaTeX in DVI mode
+  \usepackage{graphicx}
+  \DeclareGraphicsExtensions{.eps,.bmp}
+  \DeclareGraphicsRule{.emf}{bmp}{}{}% declare EMF filename extension
+  \DeclareGraphicsRule{.png}{bmp}{}{}% declare PNG filename extension
+  \usepackage{pgf}
+  \usepackage{tikz}
+  \usepackage{pstricks}
+\fi
+\usepackage{epic,bez123}
+\usepackage{floatflt}% package for floatingfigure environment
+\usepackage{wrapfig}% package for wrapfigure environment
+
+\begin{document}
+
+\subsection{Including TpX drawing into \TeX document}
+
+A template for \LaTeX document with TpX drawing
+
+% Begin TpX drawing --------------------------------------------|
+\input{Samples/Template.TpX}
+%  End TpX drawing  --------------------------------------------|
+
+\end{document}

@@ -1,0 +1,20 @@
+%<TpX v="5" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3" IncludePath="Samples/">
+%  <rect x="5.84392" y="4.49305" w="114.155" h="70.6076" li="dash" lw="0.50"/>
+%  <text x="62.9718" y="40.3225" t="Template drawing" h="4" halign="c"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(334.93, 211.49)(0,0)
+  \put(0,0){\includegraphics{Samples/Template.pdf}}
+  \put(167.61,107.23){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{Template drawing}}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(334.93, 211.49)(0,0)
+  \put(0,0){\includegraphics{Samples/Template}}
+  \put(167.61,107.23){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{Template drawing}}
+  \end{picture}%
+\fi
+\end{figure}

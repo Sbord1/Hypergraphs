@@ -1,0 +1,146 @@
+%<TpX v="5" PdfTeXFormat="epstopdf" ArrowsSize="0.5" StarsSize="1" DefaultFontHeight="4" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="10000" HatchingStep="1.4" DottedSize="0.35" DashSize="0.7" LineWidth="0.3125">
+%  <comment>Imported from q2.emf 2006-08-01 0:36:29</comment>
+%  <curve arr2="h44" li="dash">21.4591,104.882 23.7596,105.965 26.8939,109.169 30.0489,117.71</curve>
+%  <curve arr2="h44" li="dash">33.0918,105.234 38.6503,108.333 44.3375,118.621</curve>
+%  <curve arr2="h44" li="dash">19.482,104.815 20.135,104.841 42.2072,105.531 48.4681,106.609 52.7471,110.504 57.2229,118.773</curve>
+%  <curve arr2="h44" arrs="0.5">15.9496,103.606 15.4799,103.259 14.9188,101.066 15.4067,99.8537 15.7752,99.2546</curve>
+%  <curve arr2="h44" arrs="0.5">19.7795,99.1646 20.3281,99.7184 20.8104,101.705 20.3225,102.917 19.954,103.516</curve>
+%  <curve arr2="h44" arrs="0.5">17.7694,62.6512 17.2324,63.0639 16.653,65.155 17.4476,66.9942</curve>
+%  <curve arr2="h44" arrs="0.5">21.4466,67.2197 22.0306,66.7453 22.5629,64.7159 21.7684,62.8767</curve>
+%  <curve arr2="h44" li="dash">43.5037,69.7676 52.5707,74.9153 54.7351,81.5255 55.0082,83.2699</curve>
+%  <curve arr2="h44" li="dash">20.9797,69.3584 34.9606,69.6893 53.9878,70.0203 59.696,70.8475 64.8251,74.9839 67.3714,82.7529</curve>
+%  <curve arr2="h44" li="dash">21.4451,60.6965 21.7376,60.6875 27.0647,60.8992 30.8043,61.64 35.5501,63.6728 41.3086,64.708 48.4258,64.9021 60.7839,65.1609</curve>
+%  <rect x="22.8808" y="79.7731" w="48.8648" h="9.98515" rx="5.125"/>
+%  <rect x="31.403" y="44.6487" w="23.167" h="10.0307" rx="5.125" li="dash"/>
+%  <circle x="49.7136" y="49.586" d="3.26116"/>
+%  <circle x="36.2631" y="49.4179" d="3.26117"/>
+%  <circle x="66.6949" y="85.0618" d="3.26117"/>
+%  <circle x="53.4966" y="84.8247" d="3.26115"/>
+%  <circle x="40.2142" y="84.916" d="3.26115"/>
+%  <circle x="27.1839" y="84.885" d="3.26117"/>
+%  <curve arr2="h44">31.8327,75.9382 34.9077,76.9279 38.5206,81.1558 39.3685,82.4743</curve>
+%  <curve arr2="h44">46.642,76.0643 49.6439,77.5207 51.8038,80.4269 52.9608,82.568</curve>
+%  <curve arr2="h44">13.2127,71.7892 17.3844,74.4583 22.2799,75.611 27.9217,75.8018 33.6556,76.0005 42.3396,76.0743 52.8559,76.2382 59.8702,77.9027 66.0186,82.8267</curve>
+%  <circle x="18.1048" y="97.9239" d="3.26117"/>
+%  <circle x="17.6549" y="104.822" d="3.26115"/>
+%  <curve arr2="h44">13.1362,108.794 16.7414,110.349 22.5381,110.702 38.3021,111.338 46.0073,111.621 52.0867,114.166 55.6456,119.116</curve>
+%  <curve arr2="h44">32.5054,111.197 37.171,112.823 41.872,117.103 42.8202,118.431</curve>
+%  <curve arr2="h44">51.94,86.1554 41.9115,91.883 33.8734,104.653 31.9631,116.649 31.6041,118.431</curve>
+%  <curve arr2="h44">59.0852,119.543 63.757,112.973 65.7017,103.639 62.655,94.3041 55.7276,86.303</curve>
+%  <curve>86.5967,49.1766 86.8401,82.1633 77.0886,113.772 51.3903,132.251 39.2848,128.997 32.3097,123.949</curve>
+%  <curve>69.3055,16.5232 86.6117,47.3803 68.2809,84.2754</curve>
+%  <curve arr2="h44">23.8975,16.5117 7.26709,46.3406 13.2016,71.8476 25.1879,84.0899</curve>
+%  <curve arr2="h44">7.08965,46.7951 3.38947,72.4843 12.6495,108.196 24.9164,117.627 28.0088,118.92</curve>
+%  <line x1="41.9481" y1="84.8773" x2="51.0971" y2="84.8635" arr2="h44"/>
+%  <line x1="28.9344" y1="84.9826" x2="37.8444" y2="84.9678" arr2="h44"/>
+%  <line x1="55.2483" y1="84.917" x2="64.3954" y2="84.8681" arr2="h44"/>
+%  <curve arr2="h44">68.1771,84.3026 67.3032,70.4729 57.1778,59.5889 37.8146,51.0372</curve>
+%  <curve arr2="h44">35.2016,50.7943 29.3757,58.1515 24.338,72.7337 24.8941,78.6951 25.994,81.089 26.6223,82.4468</curve>
+%  <line x1="21.4547" y1="62.0282" x2="26.7557" y2="62.0183" arr2="h44" arrs="0.7" li="dash" lw="0.75"/>
+%  <line x1="38.3629" y1="49.5476" x2="47.3886" y2="49.4769" arr2="h44"/>
+%  <rect x="23.9102" y="12.6802" w="45.3753" h="8.56243" rx="4.281"/>
+%  <text x="47.6723" y="15.8342" t="Environment" tex="\textsf{\textsl{Environment}}" h="4" halign="c"/>
+%  <circle x="29.9393" y="119.948" d="3.26117"/>
+%  <circle x="43.4031" y="120.602" d="3.26115"/>
+%  <circle x="56.7035" y="120.929" d="3.26117"/>
+%  <line x1="31.7176" y1="120.165" x2="41.2405" y2="120.521" arr2="h44"/>
+%  <line x1="45.1036" y1="120.619" x2="54.503" y2="120.975" arr2="h44"/>
+%  <circle x="19.534" y="67.9964" d="3.26115"/>
+%  <circle x="19.7862" y="61.4393" d="3.26116"/>
+%  <curve arr2="h44" li="dash">27.0201,69.5561 35.8474,73.5492 41.0754,82.7398</curve>
+%  <curve arr2="h44" li="dash">21.4517,69.419 23.6294,70.4233 26.0223,74.0482 27.9939,82.7298</curve>
+%  <curve arr2="h44" li="dash">19.0639,96.4846 19.493,96.5114 27.8344,96.5651 31.726,97.0199 36.4623,99.4557 42.0042,101.16 46.1064,101.305 54.1671,101.621 63.7299,101.846</curve>
+%  <curve arr2="h44" arrs="0.7" li="dash">20.046,97.7587 20.4669,97.7636 24.1424,98.0372 27.7222,99.5696 32.3321,100.991 33.3558,101.138</curve>
+%  <text x="38.2623" y="40.2846" t="M(a)" tex="\textsf{\textsl{M(a)}}" h="4" halign="c"/>
+%  <text x="27.4366" y="46.5996" t="L0" tex="\textsf{\textsl{L}}$_\textsf{\textsl{0}}$" h="4" halign="c"/>
+%  <text x="15.2414" y="60.059" t="N" tex="\textsf{\textsl{N}}" h="4" halign="c"/>
+%  <text x="27.5389" y="64.5723" t="b" tex="$\beta$" h="4"/>
+%  <text x="65.9072" y="64.0805" t="b" tex="$\beta$" h="4"/>
+%  <text x="66.4436" y="98.9478" t="b" tex="$\beta$" h="4"/>
+%  <text x="38.6569" y="96.373" t="b" tex="$\beta$" h="4"/>
+%  <text x="20.9878" y="83.423" t="L1" tex="\textsf{\textsl{L}}$_\textsf{\textsl{1}}$" h="4" halign="r"/>
+%  <text x="17.4557" y="116.145" t="L2" tex="\textsf{\textsl{L}}$_\textsf{\textsl{2}}$" h="4" halign="r"/>
+%  <text x="34.5865" y="76.955" t="a" tex="$\alpha$" h="4" halign="r"/>
+%  <text x="48.4967" y="77.0109" t="a" tex="$\alpha$" h="4" halign="r"/>
+%  <text x="58.6937" y="77.7248" t="a" tex="$\alpha$" h="4" halign="r"/>
+%  <text x="17.1924" y="68.2883" t="P" tex="\textsf{\textsl{P}}" h="4" halign="r"/>
+%  <text x="15.3208" y="104.292" t="P" tex="\textsf{\textsl{P}}" h="4" halign="r"/>
+%  <text x="12.2643" y="96.7763" t="N" tex="\textsf{\textsl{N}}" h="4" halign="c"/>
+%  <text x="36.8984" y="112.864" t="a" tex="$\alpha$" h="4" halign="r"/>
+%  <text x="50.0708" y="113.068" t="a" tex="$\alpha$" h="4" halign="r"/>
+%  <text x="30.1927" y="122.203" t="M(c1)" tex="\textsf{\textsl{M(c$_\textsf{\textsl{1}}$)}}" h="2.2" halign="c"/>
+%  <text x="54.0536" y="123.177" t="M(c2)" tex="\textsf{\textsl{M(c$_\textsf{\textsl{2}}$)}}" h="2.2" halign="c"/>
+%  <text x="40.8134" y="87.3828" t="M(b1)" tex="\textsf{\textsl{M(b$_\textsf{\textsl{1}}$)}}" h="2.2" halign="c"/>
+%  <text x="52.8878" y="87.4361" t="M(b2)" tex="\textsf{\textsl{M(b$_\textsf{\textsl{2}}$)}}" h="2.2" halign="c"/>
+%  <text x="65.269" y="87.5719" t="M(R)" tex="\textsf{\textsl{M(R)}}" h="2.2" halign="c"/>
+%  <text x="28.552" y="87.414" t="M1.1" tex="\textsf{\textsl{M1.1}}" h="2.2" halign="c"/>
+%  <rect x="25.2193" y="115.294" w="36.5446" h="10.2494" rx="5.125" li="dash"/>
+%  <text x="19" y="26.864" t="Aff" tex="\textsf{\textsl{Aff}}" h="4" halign="c"/>
+%  <text x="85" y="26.864" t="eff" tex="\textsf{\textsl{eff}}" h="4" halign="c"/>
+%</TpX>
+\begin{figure}
+\centering
+\ifpdf
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(250.86, 350.28)(0,0)
+  \put(0,0){\includegraphics{BrainModel}}
+  \put(131.41,14.61){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{Environment}}}}
+  \put(104.73,83.92){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{M(a)}}}}
+  \put(74.05,101.82){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{L}}$_\textsf{\textsl{0}}$}}
+  \put(39.48,139.97){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{N}}}}
+  \put(74.34,152.77){\fontsize{11.38}{13.66}\selectfont $\beta$}
+  \put(183.10,151.37){\fontsize{11.38}{13.66}\selectfont $\beta$}
+  \put(184.62,250.21){\fontsize{11.38}{13.66}\selectfont $\beta$}
+  \put(105.85,242.91){\fontsize{11.38}{13.66}\selectfont $\beta$}
+  \put(55.77,206.20){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{\textsf{\textsl{L}}$_\textsf{\textsl{1}}$}}
+  \put(45.76,298.96){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{\textsf{\textsl{L}}$_\textsf{\textsl{2}}$}}
+  \put(94.32,187.87){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{$\alpha$}}
+  \put(133.75,188.02){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{$\alpha$}}
+  \put(162.65,190.05){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{$\alpha$}}
+  \put(45.01,163.30){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{\textsf{\textsl{P}}}}
+  \put(39.70,265.36){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{\textsf{\textsl{P}}}}
+  \put(31.04,244.05){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{N}}}}
+  \put(100.87,289.65){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{$\alpha$}}
+  \put(138.21,290.23){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{$\alpha$}}
+  \put(81.86,316.13){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M(c$_\textsf{\textsl{1}}$)}}}}
+  \put(149.50,318.89){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M(c$_\textsf{\textsl{2}}$)}}}}
+  \put(111.97,217.42){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M(b$_\textsf{\textsl{1}}$)}}}}
+  \put(146.19,217.58){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M(b$_\textsf{\textsl{2}}$)}}}}
+  \put(181.29,217.96){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M(R)}}}}
+  \put(77.21,217.51){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M1.1}}}}
+  \put(50.13,45.88){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{Aff}}}}
+  \put(237.22,45.88){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{eff}}}}
+  \end{picture}%
+\else
+  \setlength{\unitlength}{1bp}%
+  \begin{picture}(250.86, 350.28)(0,0)
+  \put(0,0){\includegraphics{BrainModel}}
+  \put(131.41,14.61){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{Environment}}}}
+  \put(104.73,83.92){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{M(a)}}}}
+  \put(74.05,101.82){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{L}}$_\textsf{\textsl{0}}$}}
+  \put(39.48,139.97){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{N}}}}
+  \put(74.34,152.77){\fontsize{11.38}{13.66}\selectfont $\beta$}
+  \put(183.10,151.37){\fontsize{11.38}{13.66}\selectfont $\beta$}
+  \put(184.62,250.21){\fontsize{11.38}{13.66}\selectfont $\beta$}
+  \put(105.85,242.91){\fontsize{11.38}{13.66}\selectfont $\beta$}
+  \put(55.77,206.20){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{\textsf{\textsl{L}}$_\textsf{\textsl{1}}$}}
+  \put(45.76,298.96){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{\textsf{\textsl{L}}$_\textsf{\textsl{2}}$}}
+  \put(94.32,187.87){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{$\alpha$}}
+  \put(133.75,188.02){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{$\alpha$}}
+  \put(162.65,190.05){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{$\alpha$}}
+  \put(45.01,163.30){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{\textsf{\textsl{P}}}}
+  \put(39.70,265.36){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{\textsf{\textsl{P}}}}
+  \put(31.04,244.05){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{N}}}}
+  \put(100.87,289.65){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{$\alpha$}}
+  \put(138.21,290.23){\fontsize{11.38}{13.66}\selectfont \makebox[0pt][r]{$\alpha$}}
+  \put(81.86,316.13){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M(c$_\textsf{\textsl{1}}$)}}}}
+  \put(149.50,318.89){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M(c$_\textsf{\textsl{2}}$)}}}}
+  \put(111.97,217.42){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M(b$_\textsf{\textsl{1}}$)}}}}
+  \put(146.19,217.58){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M(b$_\textsf{\textsl{2}}$)}}}}
+  \put(181.29,217.96){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M(R)}}}}
+  \put(77.21,217.51){\fontsize{6.26}{7.51}\selectfont \makebox[0pt]{\textsf{\textsl{M1.1}}}}
+  \put(50.13,45.88){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{Aff}}}}
+  \put(237.22,45.88){\fontsize{11.38}{13.66}\selectfont \makebox[0pt]{\textsf{\textsl{eff}}}}
+  \end{picture}%
+\fi
+\end{figure}
