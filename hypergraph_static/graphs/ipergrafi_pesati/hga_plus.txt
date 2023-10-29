@@ -1,0 +1,8 @@
+A,B,C,D,E,F,G,H
+A,B>C 1
+C>D 5
+B>E 7
+C>F 3
+F>G 4
+D,G>H 10
+E>H 4
