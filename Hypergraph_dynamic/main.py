@@ -1,7 +1,13 @@
 import heapq
 
+# RANK
 
-hypergraph_pathname="graphs/ipergrafi_pesati/hga_plus.txt" # arbitrary strings
+hypergraph_pathname="/Users/Francesco/Desktop/Hypergraphs/Hypergraph_dynamic/graphs/ipergrafi_pesati/hga_plus.txt" # arbitrary strings
+alphabet= "0ABCDEFGHIJKLMNOPQRSTUVWXYZ" # we are going to use it to add new nodes
+hypergraph = [[], [], []]
+hyperarcs_T = [] #lista iperarchi il cui source è raggiungibile
+PQ=[] #priority queue utilizzata per improve_weight
+childRoot = []  # childRoot[y] contiene puntatore all'iperarco (x,y)
 
 
 def hyp_load(hypergraph):
@@ -88,7 +94,7 @@ def hyp_visit(hypergraph,source_set):
 
     for _ in range(len(node_dict)):
         childRoot.append(9999)
-        d.append(9999)
+        d.append(0)
 
     ### INITIAL MARKING, INITIAL QUEUE
     scannable= []
@@ -99,7 +105,7 @@ def hyp_visit(hypergraph,source_set):
         d[node_dict[xi]] = 0 #source quindi distanza 0
         visited.append(nodes[node_dict[xi]][1])
         for h in nodes[node_dict[xi]][2]:
-            hyperarcs[h][0]-=1 # DECREMENT SCANNABILITY VALU
+            hyperarcs[h][0]-=1 # DECREMENT SCANNABILITY VALUE
             if hyperarcs[h][0]==0:
                 hyperarcs_T.append(hyperarcs[h][1])
                 scannable.append(h)
@@ -120,18 +126,23 @@ def hyp_visit(hypergraph,source_set):
         #id nodo target dell'iperarco
         t=node_dict[hyperarcs[hyperarcsID][3]]
 
-        # calcolo distanza
-        distanza=9999
-        u=True # flag, se = False allora non conosciamo distanza
-        for _ in range(len(hyperarcs[hyperarcsID][2])):
-            x = d[node_dict[hyperarcs[hyperarcsID][2][_]]]
-            if x!=9999 and u==True: # se conosciamo distanza aggiorna
 
-                distanza=min(distanza,x)
-                #distanza+=x
+        # calcolo misura: RANK
+
+        # calcolo misura: GAP
+
+
+        misura = 9999
+        u = True  # flag, se = False allora non conosciamo distanza
+        for _ in range(len(hyperarcs[hyperarcsID][2])):
+            x = d[node_dict[hyperarcs[hyperarcsID][2][_]]]  # distanza dal source
+            if x != 9999 and u == True:  # se conosciamo distanza aggiorna
+
+                misura = min(misura, x)
+                misura = weight + misura
             else:
-                u=False
-                distanza=-1
+                u = False
+                misura = -1
                 break
 
         #se non stato visitato lo visito e cambio reachmark
@@ -140,16 +151,17 @@ def hyp_visit(hypergraph,source_set):
             visited.append(nodes[t][1])
 
         #aggiorno distanza del nodo
-        if distanza!=-1:
+        if misura!=-1:
             pre_d=d[t]
-            if d[t] > (weight+distanza): #aggiorno d con la distanza migliore
-                d[t]= weight + distanza
+
+            if d[t] < misura:  # aggiorno d con la misura MASSIMA (RANK)
+                d[t] = misura
                 childRoot[t] = hyperarcsID
 
-                if pre_d!=9999:
-                    for i in nodes[t][2]:
-                        scannable.append(i)
-                        heapq.heappush(priority_queue, (int(hyperarcs[i][4]), hyperarcs[i][1])) #ricontrollo l'fstar(t)
+            if pre_d!=9999:
+                for i in nodes[t][2]:
+                    scannable.append(i)
+                    heapq.heappush(priority_queue, (int(hyperarcs[i][4]), hyperarcs[i][1])) #ricontrollo l'fstar(t)
 
         for h in nodes[t][2]:
             hyperarcs[h][0]-=1# DECREMENT SCANNABILITY VALUE
@@ -170,8 +182,8 @@ def improve_weight(hypergraph,id):
     nodes = hypergraph[0]
     global PQ
 
-    w=int(input("Assign a weight to this hyperarc: "))
-    hyperarcs[id][4]=w
+    w = int(input("Assign a weight to this hyperarc: "))
+    hyperarcs[id][4] = w
 
     if hyperarcs[id][1] in hyperarcs_T:
         scan_hyperarc(hypergraph,id)
@@ -190,60 +202,145 @@ def scan_hyperarc(hypergraph,id):
     nodes = hypergraph[0]
     hyperarcs = hypergraph[1]
     node_dict = hypergraph[2]
-    w=int(hyperarcs[id][4]) #weight hyperarc
+    w = int(hyperarcs[id][4])  # weight hyperarc
 
-    t=node_dict[hyperarcs[id][3]] #target node
-    pre_d=nodes[t][3] #distanza dal source del target node prima che cambiassi peso
+    t = node_dict[hyperarcs[id][3]]  # target node
+    pre_d = nodes[t][3]  # distanza dal source del target node prima che cambiassi peso
 
-    #controllo distanza del source dell'iperarco cambiato
-    post_d=w
+    # controllo distanza del source dell'iperarco cambiato
+    post_d = w
     for _ in range(len(hyperarcs[id][2])):
         x = nodes[node_dict[hyperarcs[id][2][_]]][3]
-        post_d+=x
+        post_d += x
 
-    if post_d < pre_d:
+    if post_d > pre_d:
+
         childRoot[t] = id
         nodes[t][3]=post_d
         heapq.heappush(PQ,(post_d,t)) #insert node t with priority post_d
 
+def insert_hyperarc(hypergraph):
+    nodes = hypergraph[0]
+    hyperarcs = hypergraph[1]
+    node_dict = hypergraph[2]
+
+    source = input("Insert source (comma-separated node id): ").upper().split(',')
+    target = input("Insert target id Node: ").upper()
+    weight = input("Insert weight: ")
+    assigned_source_node = []
+
+    if len(target) != 1:
+        print("Error: target length too big")
+        return
+
+    # create empty hyperarc, it will be filled later
+    id_hyperarc = hyperarcs[-1][1] + 1
+    hyperarcs.append([0, id_hyperarc, [], 0, weight])
+
+    # check if nodes in source exist, otherwise create it/them
+    for s in source:
+
+        if s not in node_dict:
+            id_node = max(node_dict.values()) + 1
+            s = alphabet[id_node]
+            node_dict[s] = id_node # create new node in dictionary
+            nodes.append([0, s, [], 9999]) # create new node in nodes list
+
+        # update hyperarc source_set
+        hyperarcs[id_hyperarc][2].append(s)
+
+        # update ADJ-LIST of source
+        nodes[node_dict[s]][2].append(id_hyperarc)
+
+        assigned_source_node.append(s)
+
+    # check if target node exist, otherwise create it
+    if target not in node_dict:
+        id_node = max(node_dict.values()) + 1
+        target = alphabet[id_node]
+        node_dict[target] = id_node  # create new node in dictionary
+        nodes.append([0, target,[], 9999])  # create new node in nodes list
+
+    hyperarcs[id_hyperarc][3] = target
+
+    print("Inserted hyperarc with source: ",assigned_source_node)
+    print("Inserted hyperarc with target: ", target)
+
+    # update distance from source
+    scan_hyperarc(hypergraph, id_hyperarc)
 
 
-hypergraph = [[], [], []]
-hyperarcs_T = [] #lista iperarchi il cui source è raggiungibile
-PQ=[] #priority queue utilizzata per improve_weight
+def general_menu():
+    print("Menu:")
+    print("1. Enter initial marking")
+    print("2. Display hypergraph information")
+    print("3. Change hyperarc weight")
+    print("4. Insert new hyperarc")
+    print("5. Quit")
+    print("")
 
+def measure_menu():
+    print("1. Traversal cost")
+    print("2. Rank")
+    print("3. Gap")
+    print("4. Bottleneck")
+    print("5. Threshold")
+    print("")
+# ---------------------------------------------------------------
+# MAIN
 hyp_load(hypergraph)
 
-hyp_print(hypergraph)
-
-childRoot = []  # childRoot[y] contiene puntatore all'iperarco (x,y)
-source_set = [0]
-
 while True:
-    num_nodes=len(hypergraph[0])
-    source=input('Initial marking? (comma-separated node id): ')
-    ss = source.split(',')
-    # print('ss -->',ss,'<--')
-    if len(ss[0])==0:
-        print('No input. Exiting.')
-        exit()
-    source_set = []
-    for xi in ss:
-        # print('hypergraph[2].get(xi,\'0\'): ', hypergraph[2].get(xi,'0'))
-        source_set.append(xi)
-        if int(hypergraph[2].get(xi,'0'))==0:
-            print('Non-existent identifiers. Exiting.')
-            exit()
-    # print('source_set: ',source_set)
-    hyp_visit(hypergraph,source_set)
-    hyp_print(hypergraph)
 
-    while True:
-        answer=input("would you like to change weight for a hyperarc? (y \ n) ")
-        if answer=="y":
-            id=int(input("Insert hyperarc id: "))
-            improve_weight(hypergraph,id)
+    general_menu()
+    choice = input("Enter your choice: ")
+
+    # Ask which measure function to use
+    if choice == "1":
+
+
+        # User wants to enter initial marking
+        source = input('Initial marking? (comma-separated node id): ')
+        ss = source.split(',')
+
+        if len(ss[0]) == 0:
+            print('No input. Exiting.')
+            exit()
+
+        source_set = []
+        for xi in ss:
+            # print('hypergraph[2].get(xi,\'0\'): ', hypergraph[2].get(xi,'0'))
+            source_set.append(xi)
+            if int(hypergraph[2].get(xi, '0')) == 0:
+                print('Non-existent identifiers. Exiting.')
+                exit()
+        hyp_visit(hypergraph, source_set)
+        hyp_print(hypergraph)
+
+    elif choice == "2":
+        # User wants to display hypergraph information
+        hyp_print(hypergraph)
+
+    elif choice == "3":
+        # User wants to change hyperarc weight
+        id = int(input("Insert hyperarc id: "))
+
+        # check that id exists
+        if id < len(hypergraph[1]) and id > 0:
+            improve_weight(hypergraph, id)
+            hyp_visit(hypergraph,source_set)
             hyp_print(hypergraph)
         else:
-            break
+            print("id not found")
 
+    elif choice == "4":
+        # User wants to insert new hyperarc
+        insert_hyperarc(hypergraph)
+        hyp_print(hypergraph)
+
+    elif choice == "5":
+        print("Exiting.")
+        break
+
+    else:
+        print("Invalid choice. Please select a valid option.")

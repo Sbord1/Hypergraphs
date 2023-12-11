@@ -1,8 +1,16 @@
 import heapq
 
 
-hypergraph_pathname="graphs/ipergrafi_pesati/hga_plus.txt" # arbitrary strings
-
+hypergraph_pathname="/Users/Francesco/Desktop/Hypergraphs/Hypergraph_dynamic/graphs/ipergrafi_pesati/hga_plus.txt" # arbitrary strings
+alphabet= "0ABCDEFGHIJKLMNOPQRSTUVWXYZ" # we are going to use it to add new nodes
+hypergraph = [[], [], []]
+hyperarcs_T = [] #lista iperarchi il cui source è raggiungibile
+PQ=[] #priority queue utilizzata per improve_weight
+global childRoot
+childRoot = []  # childRoot[y] contiene puntatore all'iperarco (x,y)
+global measure
+measure='1' # by default this Gap the measure function
+global source_set
 
 def hyp_load(hypergraph):
     hfile = open(hypergraph_pathname, encoding="utf8")
@@ -70,90 +78,156 @@ def hyp_print(hypergraph):
 def hyp_unmark(hypergraph):
     for n in hypergraph[0]:
         n[0]=1 # RESET TO 1 = UNREACHABLE NODE
+        n[3]=9999
     for h in hypergraph[1]:
         h[0]=len(h[2]) # SCANNABILITY VALUE = |SOURCE|
 
-def hyp_visit(hypergraph,source_set):
-    hyp_unmark(hypergraph)
-    nodes=hypergraph[0]
-    hyperarcs=hypergraph[1]
-    node_dict=hypergraph[2]
-    priority_queue=[(0,0)]
-    visited = []
-    global childRoot
-    childRoot = []# childRoot[y] contiene puntatore all'iperarco (x,y)
-    d = [] # d[y] contiene distanza dal source a y
-    global hyperarcs_T
-    hyperarcs_T = []#lista iperarchi il cui source è raggiungibile
 
+def hyp_visit(hypergraph,source_set,measure):
+
+    # Reset visit markers in the hypergraph
+    hyp_unmark(hypergraph)
+
+    nodes = hypergraph[0]
+    hyperarcs = hypergraph[1]
+    node_dict = hypergraph[2]
+
+    # Initialize priority queue with a dummy value
+    priority_queue = [(0, 0)]
+    visited = []
+
+    # Global variables
+    global childRoot
+    childRoot = []  # childRoot[y] contains a pointer to the hyperarc (x, y)
+    d = []  # d[y] contains the distance from the source to y
+    global hyperarcs_T
+    hyperarcs_T = []  # List of hyperarcs whose source is reachable
+
+    # Initialization of the distance and childRoot lists
     for _ in range(len(node_dict)):
         childRoot.append(9999)
-        d.append(9999)
+        if measure=='2':
+            d.append(0)
+        else:
+            d.append(9999)
 
     ### INITIAL MARKING, INITIAL QUEUE
     scannable= []
     for xi in source_set:
+        # Set reachmark, initial distance, and childRoot for nodes in the source set
         nodes[node_dict[xi]][0]=0 #reachmark
-        nodes[node_dict[xi]][3] = 0
-        childRoot[node_dict[xi]]=0 #source
-        d[node_dict[xi]] = 0 #source quindi distanza 0
+        nodes[node_dict[xi]][3] = 0 # initial distance
+        childRoot[node_dict[xi]]=0 # source
+        d[node_dict[xi]] = 0  # source, so distance is 0
         visited.append(nodes[node_dict[xi]][1])
+
+        # Update scannability and add hyperarcs to the priority queue
         for h in nodes[node_dict[xi]][2]:
-            hyperarcs[h][0]-=1 # DECREMENT SCANNABILITY VALU
+            hyperarcs[h][0]-=1 # DECREMENT SCANNABILITY VALUE
             if hyperarcs[h][0]==0:
                 hyperarcs_T.append(hyperarcs[h][1])
                 scannable.append(h)
                 heapq.heappush(priority_queue,(int(hyperarcs[h][4]),hyperarcs[h][1]))
 
-    weight, hyperarcsID = heapq.heappop(priority_queue)  # tupla (0,0)
+    # Extract the first hyperarc from the priority queue
+    weight, hyperarcsID = heapq.heappop(priority_queue)  # dummy tuple (0,0)
 
-    #in scannable ci sono gli hyperarcs
+    # In scannable, there are hyperarcs ready for exploration
     ### REACH & SCAN AS MUCH AS POSSIBLE
     while len(scannable)>0:
 
-
-
-        if len(priority_queue)!=0: #se c'è qualcosa nella coda prendi id e peso iperarco
+        if len(priority_queue)!=0: # If there is something in the queue, get the hyperarc ID and weight
             weight, hyperarcsID = heapq.heappop(priority_queue)
             scannable.pop()
 
-        #id nodo target dell'iperarco
+        # Target node ID of the hyperarc
         t=node_dict[hyperarcs[hyperarcsID][3]]
 
-        # calcolo distanza
-        distanza=9999
-        u=True # flag, se = False allora non conosciamo distanza
-        for _ in range(len(hyperarcs[hyperarcsID][2])):
-            x = d[node_dict[hyperarcs[hyperarcsID][2][_]]]
-            if x!=9999 and u==True: # se conosciamo distanza aggiorna
+        # Calculate measure: GAP
+        if measure=='1':
 
-                distanza=min(distanza,x)
-                #distanza+=x
-            else:
-                u=False
-                distanza=-1
-                break
+            misura=9999
+            u=True # Flag, if False, then we don't know the distance
+            for _ in range(len(hyperarcs[hyperarcsID][2])):
+                x = d[node_dict[hyperarcs[hyperarcsID][2][_]]] # Distance from the source
+                if x!=9999 and u==True: # If we know the distance, update
+                    misura=min(misura,x)
+                    misura = weight + misura
+                else:
+                    u=False
+                    misura=-1
+                    break
 
-        #se non stato visitato lo visito e cambio reachmark
+        # Calculate measure: RANK
+        if measure=='2':
+
+            misura=9999
+            u=True # Flag, if False, then we don't know the distance
+            for _ in range(len(hyperarcs[hyperarcsID][2])):
+                x = d[node_dict[hyperarcs[hyperarcsID][2][_]]] # Distance from the source
+                if x!=9999 and u==True: # If we know the distance, update
+                    misura=min(misura,x)
+                    misura = weight + misura
+                else:
+                    u=False
+                    misura=-1
+                    break
+
+        # Calculate measure: TRAVERSAL-COST
+        if measure=='3':
+
+            misura = 0
+            u = True  # Flag, if False, then we don't know the distance
+            for _ in range(len(hyperarcs[hyperarcsID][2])):
+                x = d[node_dict[hyperarcs[hyperarcsID][2][_]]]  # Distance from the source
+                if x != 9999 and u == True:  # If we know the distance, update
+                    calcolo = x + weight
+                else:
+                    u = False
+                    misura = -1
+                    break
+                misura += calcolo
+
+        # If the node has not been visited, mark it as visited and update reachmark
         if nodes[t][0]!=0:
             nodes[t][0]=0
             visited.append(nodes[t][1])
 
-        #aggiorno distanza del nodo
-        if distanza!=-1:
+        # Update the distance of the node
+        if misura!=-1:
             pre_d=d[t]
-            if d[t] > (weight+distanza): #aggiorno d con la distanza migliore
-                d[t]= weight + distanza
-                childRoot[t] = hyperarcsID
+
+            # if d[t] < misura: #aggiorno d con la misura MASSIMA
+
+            if measure=='1':
+                # Update distance with the minimum measure (GAP)
+                if d[t] > misura:
+                    d[t]= misura
+                    childRoot[t] = hyperarcsID
+
+            if measure=='2':
+                # Update distance with the maximum measure (RANK)
+                if d[t] < misura:
+                    d[t] = misura
+                    childRoot[t] = hyperarcsID
+
+            if measure=='3':
+                # Update distance with the sum of measures (Traversal)
+                if pre_d != 9999:
+                    d[t] += misura
+                    childRoot[t] = hyperarcsID
+                else:
+                    d[t] = misura
 
                 if pre_d!=9999:
                     for i in nodes[t][2]:
                         scannable.append(i)
-                        heapq.heappush(priority_queue, (int(hyperarcs[i][4]), hyperarcs[i][1])) #ricontrollo l'fstar(t)
+                        heapq.heappush(priority_queue, (int(hyperarcs[i][4]), hyperarcs[i][1]))
 
+        # Update scannability and add hyperarcs to scannable for further exploration
         for h in nodes[t][2]:
-            hyperarcs[h][0]-=1# DECREMENT SCANNABILITY VALUE
-            if hyperarcs[h][0] < 0: #so that we don't go in negative scannability
+            hyperarcs[h][0]-=1 # DECREMENT SCANNABILITY VALUE
+            if hyperarcs[h][0] < 0: # To prevent negative scannability
                 hyperarcs[h][0] = 0
                 continue # skip rest of for statement because it would add them to heap
             if hyperarcs[h][0]==0:
@@ -161,32 +235,47 @@ def hyp_visit(hypergraph,source_set):
                 scannable.append(h)
                 heapq.heappush(priority_queue, (int(hyperarcs[h][4]), hyperarcs[h][1]))
 
-    #scrivo distanza
+    # Update the effective distance for the nodes
     for i in range(len(d)):
         nodes[i][3]=d[i]
 
-def improve_weight(hypergraph,id):
+def improve_weight(hypergraph,id,measure):
     hyperarcs = hypergraph[1]
     nodes = hypergraph[0]
+    node_dict = hypergraph[2]
     global PQ
 
-    w=int(input("Assign a weight to this hyperarc: "))
-    hyperarcs[id][4]=w
+    w = int(input("Assign a weight to this hyperarc: "))
+    hyperarcs[id][4] = w
+
+
+
+    # check if we can reach the node
+    traversable=False
+    for s in hyperarcs[id][2]:
+        if nodes[node_dict[s]][3] != 9999:
+            traversable=True
+        else:
+            traversable=False
+    if traversable==True:
+        hyperarcs_T.append(id)
 
     if hyperarcs[id][1] in hyperarcs_T:
-        scan_hyperarc(hypergraph,id)
+        scan_hyperarc(hypergraph,id,measure)
 
     while len(PQ)>0:
 
         d,z = heapq.heappop(PQ) #extract minimum node with priority d
 
+        # Check distance iteratively
         for i in nodes[z][2]:
             if hyperarcs[i][1] in hyperarcs_T:
-                scan_hyperarc(hypergraph, i)
+                scan_hyperarc(hypergraph, i,measure)
 
-def scan_hyperarc(hypergraph,id):
+def scan_hyperarc(hypergraph,id,measure):
     global PQ
     global childRoot
+    global source_set
     nodes = hypergraph[0]
     hyperarcs = hypergraph[1]
     node_dict = hypergraph[2]
@@ -197,53 +286,204 @@ def scan_hyperarc(hypergraph,id):
 
     #controllo distanza del source dell'iperarco cambiato
     post_d=w
+
     for _ in range(len(hyperarcs[id][2])):
         x = nodes[node_dict[hyperarcs[id][2][_]]][3]
         post_d+=x
 
-    if post_d < pre_d:
-        childRoot[t] = id
-        nodes[t][3]=post_d
-        heapq.heappush(PQ,(post_d,t)) #insert node t with priority post_d
+    # se cambiamo peso dell'iperarco associato al sottoalbero, devo ricalcolare
+    if childRoot[t] == id:
+        hyp_visit(hypergraph,source_set,measure)
+        return
+
+    # Rank
+    if measure=='2':
+        if post_d > pre_d:
+            childRoot[t] = id
+            nodes[t][3] = post_d
+            heapq.heappush(PQ, (post_d, t))  # insert node t with priority post_d
+    else:
+        # Trasversal and Gap
+        if post_d < pre_d:
+            childRoot[t] = id
+            nodes[t][3]=post_d
+            heapq.heappush(PQ,(post_d,t)) #insert node t with priority post_d
 
 
 
-hypergraph = [[], [], []]
-hyperarcs_T = [] #lista iperarchi il cui source è raggiungibile
-PQ=[] #priority queue utilizzata per improve_weight
+def insert_hyperarc(hypergraph,measure):
+    nodes = hypergraph[0]
+    hyperarcs = hypergraph[1]
+    node_dict = hypergraph[2]
+    global childRoot
 
+    source = input("Insert source (comma-separated node id): ").upper().split(',')
+    target = input("Insert target id Node: ").upper()
+    weight = input("Insert weight: ")
+    assigned_source_node = []
+
+    if len(target) != 1:
+        print("Error: target length too big")
+        return
+
+    # create empty hyperarc, it will be filled later
+    id_hyperarc = hyperarcs[-1][1] + 1
+    hyperarcs.append([0, id_hyperarc, [], 0, weight])
+
+    # check if nodes in source exist, otherwise create it/them
+    for s in source:
+
+        if s not in node_dict:
+            id_node = max(node_dict.values()) + 1
+            s = alphabet[id_node]
+            node_dict[s] = id_node # create new node in dictionary
+            nodes.append([0, s, [], 9999]) # create new node in nodes list
+
+        # update hyperarc source_set
+        hyperarcs[id_hyperarc][2].append(s)
+
+        # update ADJ-LIST of source
+        nodes[node_dict[s]][2].append(id_hyperarc)
+
+        assigned_source_node.append(s)
+
+    # check if target node exist, otherwise create it
+    if target not in node_dict:
+        id_node = max(node_dict.values()) + 1
+        target = alphabet[id_node]
+        node_dict[target] = id_node  # create new node in dictionary
+        nodes.append([0, target,[], 9999])  # create new node in nodes list
+
+    hyperarcs[id_hyperarc][3] = target
+
+    print("Inserted hyperarc with source:",assigned_source_node)
+    print("Inserted hyperarc with target:", target)
+
+    # update childRoot
+    number_new_nodes = len(node_dict)-len(childRoot)
+    for i in range(number_new_nodes):
+        childRoot.append(9999)
+
+    # update distance from source
+    scan_hyperarc(hypergraph, id_hyperarc,measure)
+
+#------
+    while len(PQ) > 0:
+
+        d, z = heapq.heappop(PQ)  # extract minimum node with priority d
+        # Check distance iteratively
+
+        for i in nodes[z][2]:
+                scan_hyperarc(hypergraph, i, measure)
+
+
+def general_menu():
+    print("Menu:")
+    print("1. Enter initial marking")
+    print("2. Display hypergraph information")
+    print("3. Change hyperarc weight")
+    print("4. Insert new hyperarc")
+    print("5. Quit")
+    print("")
+
+def measure_menu():
+    print("1. Gap")
+    print("2. Rank")
+    print("3. Traversal cost")
+    print("4. Bottleneck")
+    print("5. Threshold")
+    print("")
+# ---------------------------------------------------------------
+# MAIN
 hyp_load(hypergraph)
 
+# Visit the first time
+source = input('Initial marking? (comma-separated node id): ')
+ss = source.split(',')
+
+if len(ss[0]) == 0:
+    print('No input. Exiting.')
+    exit()
+
+source_set = []
+
+for xi in ss:
+    source_set.append(xi)
+    if int(hypergraph[2].get(xi, '0')) == 0:
+        print('Non-existent identifiers. Exiting.')
+        exit()
+
+hyp_visit(hypergraph, source_set, '1')
 hyp_print(hypergraph)
 
-childRoot = []  # childRoot[y] contiene puntatore all'iperarco (x,y)
-source_set = [0]
-
 while True:
-    num_nodes=len(hypergraph[0])
-    source=input('Initial marking? (comma-separated node id): ')
-    ss = source.split(',')
-    # print('ss -->',ss,'<--')
-    if len(ss[0])==0:
-        print('No input. Exiting.')
-        exit()
-    source_set = []
-    for xi in ss:
-        # print('hypergraph[2].get(xi,\'0\'): ', hypergraph[2].get(xi,'0'))
-        source_set.append(xi)
-        if int(hypergraph[2].get(xi,'0'))==0:
-            print('Non-existent identifiers. Exiting.')
-            exit()
-    # print('source_set: ',source_set)
-    hyp_visit(hypergraph,source_set)
-    hyp_print(hypergraph)
+    print(measure)
+    general_menu()
+    choice = input("Enter your choice: ")
 
-    while True:
-        answer=input("would you like to change weight for a hyperarc? (y \ n) ")
-        if answer=="y":
-            id=int(input("Insert hyperarc id: "))
-            improve_weight(hypergraph,id)
+    # Ask which measure function to use
+    if choice == "1":
+        measure_menu()
+
+        measure = input("Enter your measure: ")
+
+        # User wants to enter initial marking
+        source = input('Initial marking? (comma-separated node id): ')
+        ss = source.split(',')
+
+        if len(ss[0]) == 0:
+            print('No input. Exiting.')
+            exit()
+
+        source_set = []
+        for xi in ss:
+            source_set.append(xi)
+            if int(hypergraph[2].get(xi, '0')) == 0:
+                print('Non-existent identifiers. Exiting.')
+                exit()
+
+        if measure == "1":
+            # User choose Gap measure function
+            hyp_visit(hypergraph, source_set, measure)
+            hyp_print(hypergraph)
+            print("")
+
+        elif measure == "2":
+            # User choose Rank measure function
+            hyp_visit(hypergraph, source_set, measure)
+            hyp_print(hypergraph)
+            print("")
+
+        elif measure == "3":
+            # User choose Traversal measure function
+            hyp_visit(hypergraph, source_set, measure)
+            hyp_print(hypergraph)
+            print("")
+
+    elif choice == "2":
+        # User wants to display hypergraph information
+        hyp_print(hypergraph)
+
+    elif choice == "3":
+        # User wants to change hyperarc weight
+        id = int(input("Insert hyperarc id: "))
+
+        # Check that id exists
+        if id < len(hypergraph[1]) and id > 0:
+            improve_weight(hypergraph, id,measure)
             hyp_print(hypergraph)
         else:
-            break
+            print("id not found")
+
+    elif choice == "4":
+        # User wants to insert new hyperarc
+        insert_hyperarc(hypergraph,measure)
+        hyp_print(hypergraph)
+
+    elif choice == "5":
+        print("Exiting.")
+        break
+
+    else:
+        print("Invalid choice. Please select a valid option.")
 
