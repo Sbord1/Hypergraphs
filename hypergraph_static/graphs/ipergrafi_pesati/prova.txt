@@ -1,7 +1,0 @@
-A,B,C,D,E
-A,B>C 4
-A>D 5
-C>D 7
-D>A 1
-D>E 1
-E>C 1

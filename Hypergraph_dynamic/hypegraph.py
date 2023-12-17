@@ -1,7 +1,7 @@
 import heapq
 
 
-hypergraph_pathname="/Users/Francesco/Desktop/Hypergraphs/Hypergraph_dynamic/graphs/ipergrafi_pesati/hga_plus.txt" # arbitrary strings
+hypergraph_pathname="/Users/Francesco/Desktop/hypergraph_github/Hypergraphs/Hypergraph_dynamic/graphs/ipergrafi_pesati/hga_plus.txt" # arbitrary strings
 alphabet= "0ABCDEFGHIJKLMNOPQRSTUVWXYZ" # we are going to use it to add new nodes
 hypergraph = [[], [], []]
 hyperarcs_T = [] #lista iperarchi il cui source è raggiungibile
@@ -82,6 +82,89 @@ def hyp_unmark(hypergraph):
     for h in hypergraph[1]:
         h[0]=len(h[2]) # SCANNABILITY VALUE = |SOURCE|
 
+def calculate_measure(measure, weight, hyperarcsID, d):
+    nodes = hypergraph[0]
+    hyperarcs = hypergraph[1]
+    node_dict = hypergraph[2]
+
+    # Calculate measure: GAP
+    if measure == '1':
+
+        misura = 9999
+        u = True  # Flag, if False, then we don't know the distance
+        for _ in range(len(hyperarcs[hyperarcsID][2])):
+            x = d[node_dict[hyperarcs[hyperarcsID][2][_]]]  # Distance from the source
+            if x != 9999 and u == True:  # If we know the distance, update
+                misura = min(misura, x)
+                misura = weight + misura
+            else:
+                u = False
+                misura = -1
+                break
+
+    # Calculate measure: RANK
+    if measure == '2':
+
+        misura = 9999
+        u = True  # Flag, if False, then we don't know the distance
+        for _ in range(len(hyperarcs[hyperarcsID][2])):
+            x = d[node_dict[hyperarcs[hyperarcsID][2][_]]]  # Distance from the source
+            if x != 9999 and u == True:  # If we know the distance, update
+                misura = min(misura, x)
+                misura = weight + misura
+            else:
+                u = False
+                misura = -1
+                break
+
+    # Calculate measure: TRAVERSAL-COST
+    if measure == '3':
+
+        misura = 0
+        u = True  # Flag, if False, then we don't know the distance
+        for _ in range(len(hyperarcs[hyperarcsID][2])):
+            x = d[node_dict[hyperarcs[hyperarcsID][2][_]]]  # Distance from the source
+            if x != 9999 and u == True:  # If we know the distance, update
+                calcolo = x + weight
+            else:
+                u = False
+                misura = -1
+                break
+            misura += calcolo
+
+    return misura
+
+def update_distance(misura, t, measure, d, childRoot, hyperarcsID, scannable, priority_queue):
+    nodes = hypergraph[0]
+    hyperarcs = hypergraph[1]
+
+
+    if misura != -1:
+        pre_d = d[t]
+
+        if measure == '1': # GAP
+            if d[t] > misura:
+                d[t] = misura
+                childRoot[t] = hyperarcsID
+
+        if measure == '2': # RANK
+            if d[t] < misura:
+                d[t] = misura
+                childRoot[t] = hyperarcsID
+
+        if measure == '3': # TRAVERSAL COST
+            if pre_d != 9999:
+                d[t] += misura
+                childRoot[t] = hyperarcsID
+            else:
+                d[t] = misura
+
+            if pre_d != 9999:
+                for i in nodes[t][2]:
+                    scannable.append(i)
+                    heapq.heappush(priority_queue, (int(hyperarcs[i][4]), hyperarcs[i][1]))
+
+    return
 
 def hyp_visit(hypergraph,source_set,measure):
 
@@ -141,88 +224,15 @@ def hyp_visit(hypergraph,source_set,measure):
             scannable.pop()
 
         # Target node ID of the hyperarc
-        t=node_dict[hyperarcs[hyperarcsID][3]]
-
-        # Calculate measure: GAP
-        if measure=='1':
-
-            misura=9999
-            u=True # Flag, if False, then we don't know the distance
-            for _ in range(len(hyperarcs[hyperarcsID][2])):
-                x = d[node_dict[hyperarcs[hyperarcsID][2][_]]] # Distance from the source
-                if x!=9999 and u==True: # If we know the distance, update
-                    misura=min(misura,x)
-                    misura = weight + misura
-                else:
-                    u=False
-                    misura=-1
-                    break
-
-        # Calculate measure: RANK
-        if measure=='2':
-
-            misura=9999
-            u=True # Flag, if False, then we don't know the distance
-            for _ in range(len(hyperarcs[hyperarcsID][2])):
-                x = d[node_dict[hyperarcs[hyperarcsID][2][_]]] # Distance from the source
-                if x!=9999 and u==True: # If we know the distance, update
-                    misura=min(misura,x)
-                    misura = weight + misura
-                else:
-                    u=False
-                    misura=-1
-                    break
-
-        # Calculate measure: TRAVERSAL-COST
-        if measure=='3':
-
-            misura = 0
-            u = True  # Flag, if False, then we don't know the distance
-            for _ in range(len(hyperarcs[hyperarcsID][2])):
-                x = d[node_dict[hyperarcs[hyperarcsID][2][_]]]  # Distance from the source
-                if x != 9999 and u == True:  # If we know the distance, update
-                    calcolo = x + weight
-                else:
-                    u = False
-                    misura = -1
-                    break
-                misura += calcolo
+        t = node_dict[hyperarcs[hyperarcsID][3]]
 
         # If the node has not been visited, mark it as visited and update reachmark
-        if nodes[t][0]!=0:
-            nodes[t][0]=0
+        if nodes[t][0] != 0:
+            nodes[t][0] = 0
             visited.append(nodes[t][1])
 
-        # Update the distance of the node
-        if misura!=-1:
-            pre_d=d[t]
-
-            # if d[t] < misura: #aggiorno d con la misura MASSIMA
-
-            if measure=='1':
-                # Update distance with the minimum measure (GAP)
-                if d[t] > misura:
-                    d[t]= misura
-                    childRoot[t] = hyperarcsID
-
-            if measure=='2':
-                # Update distance with the maximum measure (RANK)
-                if d[t] < misura:
-                    d[t] = misura
-                    childRoot[t] = hyperarcsID
-
-            if measure=='3':
-                # Update distance with the sum of measures (Traversal)
-                if pre_d != 9999:
-                    d[t] += misura
-                    childRoot[t] = hyperarcsID
-                else:
-                    d[t] = misura
-
-                if pre_d!=9999:
-                    for i in nodes[t][2]:
-                        scannable.append(i)
-                        heapq.heappush(priority_queue, (int(hyperarcs[i][4]), hyperarcs[i][1]))
+        misura = calculate_measure(measure, weight, hyperarcsID, d)
+        update_distance(misura, t, measure, d, childRoot, hyperarcsID, scannable, priority_queue)
 
         # Update scannability and add hyperarcs to scannable for further exploration
         for h in nodes[t][2]:
@@ -248,8 +258,6 @@ def improve_weight(hypergraph,id,measure):
     w = int(input("Assign a weight to this hyperarc: "))
     hyperarcs[id][4] = w
 
-
-
     # check if we can reach the node
     traversable=False
     for s in hyperarcs[id][2]:
@@ -257,9 +265,9 @@ def improve_weight(hypergraph,id,measure):
             traversable=True
         else:
             traversable=False
+    # if we can reach it, append the hyperarc to traversable hypercarcs list and scan it
     if traversable==True:
         hyperarcs_T.append(id)
-
     if hyperarcs[id][1] in hyperarcs_T:
         scan_hyperarc(hypergraph,id,measure)
 
@@ -308,8 +316,6 @@ def scan_hyperarc(hypergraph,id,measure):
             childRoot[t] = id
             nodes[t][3]=post_d
             heapq.heappush(PQ,(post_d,t)) #insert node t with priority post_d
-
-
 
 def insert_hyperarc(hypergraph,measure):
     nodes = hypergraph[0]

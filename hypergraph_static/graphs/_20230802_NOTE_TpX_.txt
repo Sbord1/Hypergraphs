@@ -1,6 +1,0 @@
-Il disegno  hga_plus.pdf  riproduce l'ipergrafo definito nella versione "dato testuale" nel file  hga_plus.txt  (il file utilizzato di default nel programma python "hypergraphs.py").
-
-Il sorgente del disegno, nel file _hga_plus.TpX, è sviluppato col programma open source:
-  TpX   https://ctan.org/pkg/tpx
-Questo programma (vecchio, ma un vero gioiello di meno di 1 MB !!!) consente di provare l'ebbrezza del disegno vettoriale.
-Provare ad ingrandire il disegno nel file  _hga_plus.TpX
